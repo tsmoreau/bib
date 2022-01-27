@@ -428,15 +428,15 @@ export default function IndexPage() {
             <div>
               <div className="font-molle text-2xl py-2 pt-0.5 bg-th-background px-6 w-full flex lg:hidden justify-between items-center  top-0 z-40">
                 <a href="/">
-                  <div className="-mb-1 w-72">
+                  <div className="-mb-1 w-56 -ml-4 mr-4">
                     <Logo />
                   </div>
                 </a>
                 <div className="flex items-center">
-                  <div className="relative mr-6 "></div>
+                  <div className="relative mr-4 "></div>
                   <div
                     id="menu"
-                    className="text-gray-800"
+                    className="text-gray-800 translate-x-3 translate-y-0.5"
                     onClick={() => setShow(!show)}
                   >
                     {show ? (

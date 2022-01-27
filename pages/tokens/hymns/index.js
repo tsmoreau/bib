@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Anthromancer - Hymns</title>
+        <title>Hymns | Anthromancer</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Nav />

@@ -73,7 +73,7 @@ const Account = ({ triedToEagerConnect }) => {
           </button>
         ) : (
           <button
-            className="text-th-primary-dark font-futurapt text-xl"
+            className="text-th-primary-dark font-futurapt font-thin text-xl"
             onClick={() => onboarding.current?.startOnboarding()}
           >
             Install Metamask

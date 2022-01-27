@@ -177,7 +177,7 @@ function YggClaim() {
       <div className="flex flex-col items-center justify-center  mx-auto text-center">
         <div className="text-center  px-5 py-2   mx-5">
           <form>
-            <div className="w-full font-futura text-white text-xl flex flex-col items-center justify-center mx-auto  w-3/4"></div>
+            <div className="w-full font-futurapt font-thin text-white text-xl flex flex-col items-center justify-center mx-auto  w-3/4"></div>
             <input
               type="text"
               name="code"
@@ -188,7 +188,7 @@ function YggClaim() {
           </form>
           <button
             onClick={getOnePost2}
-            className="w-72 font-futura text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium"
+            className="w-72 font-futurapt font-thin text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium"
           >
             Check Code
           </button>
@@ -196,14 +196,14 @@ function YggClaim() {
         {noCode === false ? (
           <div className=""></div>
         ) : (
-          <div className="text-center w-72 font-futura text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
+          <div className="text-center w-72 font-futurapt font-thin text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
             Not A Valid Code!
           </div>
         )}
       </div>
 
       {/* // DIVIDER BETWEEN COMPONENTS // */}
-      <div className="font-futura w-full flex flex-row flex-1 mx-auto justify-center text-center">
+      <div className="font-futurapt font-thin w-full flex flex-row flex-1 mx-auto justify-center text-center">
         <div className="text-center  px-5 py-2  rounded-lg mx-5">
           <div className="w-full">
             {content
@@ -235,20 +235,20 @@ function YggClaim() {
                           <div className="flex mx-auto">
                             <div
                               onClick={callRelayer}
-                              className="cursor-pointer text-center w-80 font-futura text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium"
+                              className="cursor-pointer text-center w-80 font-futurapt font-thin text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium"
                             >
                               Redeem Code!
                             </div>
                           </div>
                         ) : (
                           <div>
-                            <div className="text-center w-80 font-futura text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
+                            <div className="text-center w-80 font-futurapt font-thin text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
                               Your Code Has Been Redeemed!
                             </div>
                             <div className="flex flex-col items-center mx-auto">
                               <a
                                 href="https://testnets.opensea.io/assets/0x992ACb693E448a3C82DBBf1b3828920737a76D03/1"
-                                className="mx-4 mt-2 justify-center border rounded-lg cursor-pointer text-center w-11/12 flex mx-auto font-futura text-xl text-white px-5 py-0.5 pt-0.5 font-light  "
+                                className="mx-4 mt-2 justify-center border rounded-lg cursor-pointer text-center w-11/12 flex mx-auto font-futurapt font-thin text-xl text-white px-5 py-0.5 pt-0.5 font-light  "
                               >
                                 <svg
                                   width="45"
@@ -421,11 +421,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Anthromancer - Yggdrasil</title>
+        <title>Yggdrasil | Anthromancer</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
       <Nav />
+
+      <div className="h-20 w-full bg-lime-300 invisible">Spacer</div>
+
       <div className=" bg-th-background text-th-primary-dark">
         <div className="w-screen flex ">
           <div
@@ -438,7 +441,7 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:hidden -translate-y-10 flex snap-center bg-th-background w-full  h-screen lg:h-156  flex-col text-center items-center justify-center text-base px-3 ">
-              <p className="font-futura text-3xl leading-tight lg:leading-relaxed font-semibold text-left underline underline-offset-2 decoration-th-accent-light">
+              <p className="font-futurapt font-thin text-3xl leading-tight lg:leading-relaxed font-medium text-left underline underline-offset-2 decoration-th-accent-light">
                 ∞. Yggdrasil
               </p>
               <div className="w-8/12 flex mx-auto rounded-lg mt-4 justify-center">
@@ -457,14 +460,14 @@ export default function Home() {
                 </video>
               </div>
 
-              <p className=" font-futura px-12 pt-1 text-sm justify-center text-center flex flex-col items-center">
+              <p className=" font-futurapt font-thin px-12 pt-1 text-sm justify-center text-center flex flex-col items-center">
                 {!account ? (
                   <div>
-                    <p className="font-futura px-12 pt-1 text-xl justify-center text-center flex flex-col items-center">
+                    <p className="font-futurapt font-thin px-12 pt-1 text-xl justify-center text-center flex flex-col items-center">
                       To Claim:
                     </p>
                     <a href="https://www.one37pm.com/nft/tech/how-to-set-up-metamask-wallet">
-                      <div className="w-96 lg:w-72 mb-2 font-futura text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
+                      <div className="w-96  mb-2 font-futurapt font-thin text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
                         1) Setup Your Metamask Wallet
                       </div>
                     </a>
@@ -473,7 +476,7 @@ export default function Home() {
                   <div className="text-center text-base w-full mt-6">
                     Your Wallet Address: <br />
                     {account}
-                    <p className="font-futura w-full pt-1 text-sm justify-center text-center flex flex-col items-center">
+                    <p className="font-futurapt font-thin w-full pt-1 text-sm justify-center text-center flex flex-col items-center">
                       (This is the address where your Yggdrasil Token will be
                       sent.)
                     </p>
@@ -481,7 +484,7 @@ export default function Home() {
                 )}
 
                 {!account ? (
-                  <div className="w-96 lg:w-72 font-futura text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
+                  <div className="w-96  font-futurapt font-thin text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
                     2) Connect Your Wallet Above
                   </div>
                 ) : (
@@ -491,7 +494,7 @@ export default function Home() {
                 )}
               </p>
               <div className="mt-6">
-                <p className="font-futura text-lg font-bold">
+                <p className="font-futurapt font-thin text-lg font-thin">
                   More info below...
                 </p>
 
@@ -509,12 +512,12 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <div className="font-futura snap-center  bg-th-background w-full h-screen lg:h-156 flex flex-col text-center items-center justify-center text-base px-3 lg:px-36">
-              <div className="-mt-16 w-full font-futura leading-tight">
-                <p className="hidden lg:flex font-futura text-5xl leading-tight lg:leading-relaxed font-semibold text-left underline underline-offset-2 decoration-th-accent-light">
+            <div className="font-futurapt font-thin snap-center  bg-th-background w-full h-screen lg:h-156 flex flex-col text-center items-center justify-center text-base px-3 lg:px-36">
+              <div className="-mt-16 w-full font-futurapt font-thin leading-tight">
+                <p className="hidden lg:flex font-futurapt font-medium text-5xl leading-tight lg:leading-relaxed font-medium text-left underline underline-offset-2 decoration-th-accent-light">
                   ∞. Yggdrasil
                 </p>
-                <p className="lg:hidden font-futura text-3xl leading-tight lg:leading-relaxed font-semibold text-left underline underline-offset-2 decoration-th-accent-light">
+                <p className="lg:hidden font-futurapt font-medium text-3xl leading-tight lg:leading-relaxed font-medium text-left underline underline-offset-2 decoration-th-accent-light">
                   The Beginning...
                 </p>
 
@@ -547,7 +550,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="mt-4">
-                <p className=" text-lg font-bold">How to Get Started...</p>
+                <p className=" text-lg font-medium">How to Get Started...</p>
 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -563,9 +566,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <div className="font-futura snap-center bg-th-background w-full  h-screen lg:h-156 flex flex-col text-center items-center justify-center text-base px-3 lg:px-36">
+            <div className="font-futurapt font-thin snap-center bg-th-background w-full  h-screen lg:h-156 flex flex-col text-center items-center justify-center text-base px-3 lg:px-36">
               <div className="-mt-24 w-full">
-                <p className=" text-3xl font-bold text-left underline underline-offset-2 decoration-th-accent-light">
+                <p className=" text-4xl font-medium text-left underline underline-offset-2 decoration-th-accent-light">
                   How to Get Started
                 </p>
 
@@ -574,7 +577,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="mt-8">
-                <p className=" text-lg font-bold">The Steps...</p>
+                <p className=" text-lg font-medium">The Steps...</p>
 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -590,13 +593,13 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <div className="font-futura leading-tight snap-center bg-th-background w-full h-screen lg:h-156 flex flex-col text-center items-center justify-center text-base px-3 lg:px-36">
+            <div className="font-futurapt font-thin leading-tight snap-center bg-th-background w-full h-screen lg:h-156 flex flex-col text-center items-center justify-center text-base px-3 lg:px-36">
               <div className="-mt-12 w-full  leading-tight">
-                <p className="text-3xl font-bold text-left underline underline-offset-2 decoration-th-accent-light">
+                <p className="text-4xl font-medium text-left underline underline-offset-2 decoration-th-accent-light">
                   The Steps
                 </p>
 
-                <p className="pt-6 text-xl font-bold text-left left-0">
+                <p className="pt-6 text-xl font-thin text-left left-0">
                   1) Setup Your Metamask
                 </p>
                 <p className="px-1 lg:px-6 pt-1 leading-2 ">
@@ -604,7 +607,7 @@ export default function Home() {
                   do so by visiting the Metamask website or following a tutorial
                   like the one from this ONE37pm article here.
                 </p>
-                <p className="px-1 lg:px-6 pt-3 leading-2 text-center font-semibold">
+                <p className="px-1 lg:px-6 pt-3 leading-2 text-center font-medium">
                   **IMPORTANT** When MetaMask reveals your secret words, DO NOT
                   forget to write them down! This section is bolded so that you
                   don't accidentally skim and lose access to your wallet
@@ -612,7 +615,7 @@ export default function Home() {
                   a potential security risk. Instead, write them in a notebook
                   or something secure you will not misplace.
                 </p>
-                <p className="pt-6 text-xl font-bold text-left left-0">
+                <p className="pt-6 text-xl font-thin text-left left-0">
                   2) Connect to this Site
                 </p>
                 <p className="px-1 lg:px-6 pt-1">
@@ -621,7 +624,7 @@ export default function Home() {
                   in the top right is yours, and is where your token will be
                   sent.
                 </p>
-                <p className="pt-6 text-xl font-bold text-left left-0">
+                <p className="pt-6 text-xl font-thin text-left left-0">
                   3) Claim your NFT
                 </p>
                 <p className="px-1 lg:px-6 pt-1 leading-2">
@@ -636,7 +639,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="mt-8">
-                <p className=" text-lg font-bold">Now What...</p>
+                <p className=" text-lg font-medium">Now What...</p>
 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -652,9 +655,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <div className="font-futura snap-center bg-th-background w-full h-screen lg:h-156 flex flex-col text-center items-center justify-center text-base px-3 lg:px-36">
+            <div className="font-futurapt font-thin snap-center bg-th-background w-full h-screen lg:h-156 flex flex-col text-center items-center justify-center text-base px-3 lg:px-36">
               <div className="-mt-12 w-full leading-tight">
-                <p className="text-3xl font-bold text-left underline underline-offset-2 decoration-th-accent-light">
+                <p className="text-4xl font-medium text-left underline underline-offset-2 decoration-th-accent-light">
                   Congratulations! Now What?
                 </p>
 
@@ -684,7 +687,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="mt-8">
-                <p className="text-lg font-bold ">
+                <p className="text-lg font-medium ">
                   What's next for Anthromancer?
                 </p>
 
@@ -702,9 +705,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <div className="leading-tight font-futura snap-center bg-th-background w-full h-screen lg:h-156 flex flex-col text-center items-center justify-center text-base px-3 lg:px-36">
+            <div className="leading-tight font-futurapt font-thin snap-center bg-th-background w-full h-screen lg:h-156 flex flex-col text-center items-center justify-center text-base px-3 lg:px-36">
               <div className="-mt-8 w-full ">
-                <p className="text-3xl font-bold text-left underline underline-offset-2 decoration-th-accent-light">
+                <p className="text-4xl font-medium text-left underline underline-offset-2 decoration-th-accent-light">
                   What's Next for Anthromancer?
                 </p>
 
@@ -719,13 +722,13 @@ export default function Home() {
                   you'’'d like to know more about our mid- and long-term vision,
                   we invite you to take a look at our Road Map.
                 </p>
-                <p className="italic mt-8 ">
+                <p className="italic mt-8 font-medium">
                   This is Anthromancer. Welcome to The Enlightenment Machine.
                 </p>
                 <img src="/favicon.png" className="flex mx-auto w-12 mt-6" />
               </div>
               <div className="hidden bottom-0 -translate-y-16">
-                <p className=" text-xl font-bold">
+                <p className=" text-xl font-thin">
                   5. What's next for Anthromancer ..?
                 </p>
 
@@ -745,31 +748,24 @@ export default function Home() {
             </div>
           </div>
           <div className=" hidden lg:flex flex-col lg:w-4/12 text-center mx-auto">
-            <div className="w-8/12 flex mx-auto rounded-lg mt-12">
-              <video
-                width="320"
-                height="240"
-                autoPlay
-                muted
-                loop
-                className="rounded-lg"
-              >
+            <div className="w-full h-auto flex  mx-auto justify-center rounded-lg mt-12">
+              <video autoPlay muted loop className="w-9/12 rounded-lg">
                 <source
                   src="https://gateway.ipfs.io/ipfs/QmVwJGSZmsBzsseFEx3RtCnGL8q5d1DXZQxUkDt7aCjEpd"
                   type="video/mp4"
                 />
               </video>
             </div>
-            <p className="hidden text-3xl font-bold">∞. Yggdrasil</p>
+            <p className="hidden text-3xl font-thin">∞. Yggdrasil</p>
 
-            <p className="font-futura px-12 pt-1 text-sm justify-center text-center flex flex-col items-center">
+            <p className="font-futurapt font-thin px-12 pt-1 text-sm justify-center text-center flex flex-col items-center">
               {!account ? (
                 <div>
-                  <p className="font-futura px-12 pt-1 text-xl justify-center text-center flex flex-col items-center">
+                  <p className="font-futurapt font-medium px-12 pt-1 text-xl justify-center text-center flex flex-col items-center">
                     To Claim:
                   </p>
                   <a href="https://www.one37pm.com/nft/tech/how-to-set-up-metamask-wallet">
-                    <div className="w-72 mb-2 font-futura text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
+                    <div className="w-80 mb-2 font-futurapt font-thin text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
                       1) Setup Your Metamask Wallet
                     </div>
                   </a>
@@ -778,7 +774,7 @@ export default function Home() {
                 <div className="text-center text-base w-full">
                   Your Wallet Address: <br />
                   {account}
-                  <p className="font-futura w-full pt-1 text-sm justify-center text-center flex flex-col items-center">
+                  <p className="font-futurapt font-thin w-full pt-1 text-sm justify-center text-center flex flex-col items-center">
                     (This is the address where your Yggdrasil Token will be
                     sent.)
                   </p>
@@ -786,7 +782,7 @@ export default function Home() {
               )}
 
               {!account ? (
-                <div className="w-72 font-futura text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
+                <div className="w-80 font-futurapt font-thin text-xl text-white px-5 py-0.5 pt-0.5 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-primary-medium">
                   2) Connect Your Wallet Above
                 </div>
               ) : (
@@ -803,6 +799,15 @@ export default function Home() {
       </div>
 
       <style jsx>{`
+        @font-face {
+          font-family: futura-pt, sans-serif;
+
+          font-weight: 300;
+
+          font-style: normal;
+          src: url("https://use.typekit.net/pcf5uvh.css");
+        }
+
         #title {
           font-family: Futura;
         }

@@ -4,11 +4,17 @@ import { Tween, Timeline } from "react-gsap";
 
 export default function Roadmap() {
   return (
-    <div className="mb-16 ">
+    <div className="">
       {/* <div className="section"></div> */}
       <Controller>
         <div className=" h-full w-full">
-          <Scene duration={1500} pin={false} reverse={true} offset={0}>
+          <Scene
+            duration={1200}
+            indicators
+            pin={false}
+            reverse={true}
+            offset={50}
+          >
             {(progress) => (
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 2600">
                 <rect
@@ -123,61 +129,63 @@ export default function Roadmap() {
                   paused
                   duration="0.01"
                   target={
-                    <g>
-                      <rect
-                        x={706.25}
-                        y={287.66}
-                        width={493.82}
-                        height={127.97}
-                        rx={12}
-                      />
-                      <path
-                        d="M1188.07 289.66a10 10 0 0 1 10 10v104a10 10 0 0 1-10 10H718.25a10 10 0 0 1-10-10v-104a10 10 0 0 1 10-10h469.82m0-4H718.25a14 14 0 0 0-14 14v104a14 14 0 0 0 14 14h469.82a14 14 0 0 0 14-14v-104a14 14 0 0 0-14-14Z"
-                        style={{
-                          fill: "#eddec3"
-                        }}
-                      />
-                      <rect
-                        x={713.76}
-                        y={295.54}
-                        width={478.79}
-                        height={112.22}
-                        rx={4}
-                        style={{
-                          fill: "none",
-                          stroke: "#f2f2f2",
-                          strokeMiterlimit: 10,
-                          opacity: 0.30000000000000004
-                        }}
-                      />
-                      <path
-                        d="M744.78 327.62a24.25 24.25 0 1 1-24.24 24.24 24.25 24.25 0 0 1 24.24-24.24m0-4A28.25 28.25 0 1 0 773 351.86a28.27 28.27 0 0 0-28.25-28.24Z"
-                        style={{
-                          fill: "#eddec3"
-                        }}
-                      />
-                      <text
-                        transform="translate(779.43 372.51)"
-                        style={{
-                          fontSize: 40,
-                          fill: "#fff",
-                          fontFamily: "FuturaPT-Book,Futura PT",
-                          fontWeight: 300
-                        }}
-                      >
-                        {"Anthropos Token Drop"}
-                      </text>
-                      <text
-                        transform="translate(779.43 332.99)"
-                        style={{
-                          fontSize: 18,
-                          fill: "#fff",
-                          fontFamily: "FuturaPT-Book,Futura PT"
-                        }}
-                      >
-                        {"FEBRUARY 14th 2022"}
-                      </text>
-                    </g>
+                    <a href="/tokens/anthropos">
+                      <g>
+                        <rect
+                          x={706.25}
+                          y={287.66}
+                          width={493.82}
+                          height={127.97}
+                          rx={12}
+                        />
+                        <path
+                          d="M1188.07 289.66a10 10 0 0 1 10 10v104a10 10 0 0 1-10 10H718.25a10 10 0 0 1-10-10v-104a10 10 0 0 1 10-10h469.82m0-4H718.25a14 14 0 0 0-14 14v104a14 14 0 0 0 14 14h469.82a14 14 0 0 0 14-14v-104a14 14 0 0 0-14-14Z"
+                          style={{
+                            fill: "#eddec3"
+                          }}
+                        />
+                        <rect
+                          x={713.76}
+                          y={295.54}
+                          width={478.79}
+                          height={112.22}
+                          rx={4}
+                          style={{
+                            fill: "none",
+                            stroke: "#f2f2f2",
+                            strokeMiterlimit: 10,
+                            opacity: 0.30000000000000004
+                          }}
+                        />
+                        <path
+                          d="M744.78 327.62a24.25 24.25 0 1 1-24.24 24.24 24.25 24.25 0 0 1 24.24-24.24m0-4A28.25 28.25 0 1 0 773 351.86a28.27 28.27 0 0 0-28.25-28.24Z"
+                          style={{
+                            fill: "#eddec3"
+                          }}
+                        />
+                        <text
+                          transform="translate(779.43 372.51)"
+                          style={{
+                            fontSize: 40,
+                            fill: "#fff",
+                            fontFamily: "FuturaPT-Book,Futura PT",
+                            fontWeight: 300
+                          }}
+                        >
+                          {"Anthropos Token Drop"}
+                        </text>
+                        <text
+                          transform="translate(779.43 332.99)"
+                          style={{
+                            fontSize: 18,
+                            fill: "#fff",
+                            fontFamily: "FuturaPT-Book,Futura PT"
+                          }}
+                        >
+                          {"FEBRUARY 14th 2022"}
+                        </text>
+                      </g>
+                    </a>
                   }
                 >
                   <Tween
@@ -196,61 +204,63 @@ export default function Roadmap() {
                   progress={progress}
                   paused
                   target={
-                    <g>
-                      <rect
-                        x={1257.02}
-                        y={287.44}
-                        width={493.82}
-                        height={127.97}
-                        rx={12}
-                      />
-                      <path
-                        d="M1738.84 289.44a10 10 0 0 1 10 10v104a10 10 0 0 1-10 10H1269a10 10 0 0 1-10-10v-104a10 10 0 0 1 10-10h469.82m0-4H1269a14 14 0 0 0-14 14v104a14 14 0 0 0 14 14h469.82a14 14 0 0 0 14-14v-104a14 14 0 0 0-14-14Z"
-                        style={{
-                          fill: "#eddec3"
-                        }}
-                      />
-                      <rect
-                        x={1264.53}
-                        y={295.32}
-                        width={478.79}
-                        height={112.22}
-                        rx={4}
-                        style={{
-                          fill: "none",
-                          stroke: "#f2f2f2",
-                          strokeMiterlimit: 10,
-                          opacity: 0.30000000000000004
-                        }}
-                      />
-                      <path
-                        d="M1295.55 327.4a24.25 24.25 0 1 1-24.24 24.24 24.25 24.25 0 0 1 24.24-24.24m0-4a28.25 28.25 0 1 0 28.25 28.24 28.27 28.27 0 0 0-28.25-28.24Z"
-                        style={{
-                          fill: "#eddec3"
-                        }}
-                      />
-                      <text
-                        transform="translate(1330.2 369.38)"
-                        style={{
-                          fontSize: 36,
-                          fill: "#fff",
-                          fontFamily: "FuturaPT-Book,Futura PT",
-                          fontWeight: 300
-                        }}
-                      >
-                        {"Hymnal Collection Drop"}
-                      </text>
-                      <text
-                        transform="translate(1330.2 332.77)"
-                        style={{
-                          fontSize: 18,
-                          fill: "#fff",
-                          fontFamily: "FuturaPT-Book,Futura PT"
-                        }}
-                      >
-                        {"MARCH 15th 2022"}
-                      </text>
-                    </g>
+                    <a href="/tokens/hymns">
+                      <g>
+                        <rect
+                          x={1257.02}
+                          y={287.44}
+                          width={493.82}
+                          height={127.97}
+                          rx={12}
+                        />
+                        <path
+                          d="M1738.84 289.44a10 10 0 0 1 10 10v104a10 10 0 0 1-10 10H1269a10 10 0 0 1-10-10v-104a10 10 0 0 1 10-10h469.82m0-4H1269a14 14 0 0 0-14 14v104a14 14 0 0 0 14 14h469.82a14 14 0 0 0 14-14v-104a14 14 0 0 0-14-14Z"
+                          style={{
+                            fill: "#eddec3"
+                          }}
+                        />
+                        <rect
+                          x={1264.53}
+                          y={295.32}
+                          width={478.79}
+                          height={112.22}
+                          rx={4}
+                          style={{
+                            fill: "none",
+                            stroke: "#f2f2f2",
+                            strokeMiterlimit: 10,
+                            opacity: 0.30000000000000004
+                          }}
+                        />
+                        <path
+                          d="M1295.55 327.4a24.25 24.25 0 1 1-24.24 24.24 24.25 24.25 0 0 1 24.24-24.24m0-4a28.25 28.25 0 1 0 28.25 28.24 28.27 28.27 0 0 0-28.25-28.24Z"
+                          style={{
+                            fill: "#eddec3"
+                          }}
+                        />
+                        <text
+                          transform="translate(1330.2 369.38)"
+                          style={{
+                            fontSize: 36,
+                            fill: "#fff",
+                            fontFamily: "FuturaPT-Book,Futura PT",
+                            fontWeight: 300
+                          }}
+                        >
+                          {"Hymnal Collection Drop"}
+                        </text>
+                        <text
+                          transform="translate(1330.2 332.77)"
+                          style={{
+                            fontSize: 18,
+                            fill: "#fff",
+                            fontFamily: "FuturaPT-Book,Futura PT"
+                          }}
+                        >
+                          {"MARCH 15th 2022"}
+                        </text>
+                      </g>
+                    </a>
                   }
                 >
                   <Tween
@@ -316,7 +326,7 @@ export default function Roadmap() {
                             letterSpacing: "-.03099365234375em"
                           }}
                         >
-                          {"The Fool Auction"}
+                          {"The Fool Auction!"}
                         </tspan>
                       </text>
                       <text

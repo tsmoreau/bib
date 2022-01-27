@@ -153,7 +153,7 @@ export default function Team() {
   return (
     <div className="bg-th-background w-full h-auto text-center">
       <Head>
-        <title>Anthromancer - About</title>
+        <title>Path | Anthromancer</title>
         <link rel="icon" href="/favicon.png" />
         <link
           rel="stylesheet"
@@ -176,7 +176,7 @@ export default function Team() {
         <div className="w-2/3 flex flex-col items-center py-8 mt-8">
           <div className="py-8 flex mx-auto text-left  justify-start w-full">
             <p className="text-th-primary-dark decoration-th-accent-light underline font-futurapt font-thin  text-6xl tracking-tight ">
-              ABOUT
+              ABOUT ANTHROMANCER
             </p>
           </div>
 
@@ -222,13 +222,12 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">WotC Game Judge</p>
 
-                <p className="text-md px-2">
-                  Laborum aliquip ut dolor eiusmod cillum culpa magna sit enim
-                  est pariatur cillum. Reprehenderit excepteur do voluptate non
-                  culpa. Nostrud anim cillum aliquip ut cupidatat incididunt.
-                  Reprehenderit laboris pariatur laboris sunt sint minim magna
-                  est consectetur laboris. Non ex sit aliqua dolor consequat
-                  excepteur.
+                <p className="text-md px-2 leading-snug">
+                  Alex loves film, games, learning about anything, and most of
+                  all music and singing. He's an avid Magic the Gathering player
+                  and devotes himself to it in his free time working on the
+                  Commander Spellbook search engine, the Social Contract
+                  podcast, and as a tournament judge.
                 </p>
               </div>
             </div>
@@ -254,13 +253,11 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">3D Visuals/Video Designer</p>
 
-                <p className="text-md px-2">
-                  Laborum aliquip ut dolor eiusmod cillum culpa magna sit enim
-                  est pariatur cillum. Reprehenderit excepteur do voluptate non
-                  culpa. Nostrud anim cillum aliquip ut cupidatat incididunt.
-                  Reprehenderit laboris pariatur laboris sunt sint minim magna
-                  est consectetur laboris. Non ex sit aliqua dolor consequat
-                  excepteur.
+                <p className="text-md px-2 leading-snug">
+                  Richie is a visual artist and musician living in St. Louis
+                  Missouri. He has been a Unity developer and graphic artist
+                  working in video game development since 2017. He's helping to
+                  create visuals for the next phases of Anthromancer.
                 </p>
               </div>
             </div>
@@ -286,7 +283,7 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">Visual Artist</p>
 
-                <p className="text-md px-2">
+                <p className="text-md px-2 leading-snug">
                   Laborum aliquip ut dolor eiusmod cillum culpa magna sit enim
                   est pariatur cillum. Reprehenderit excepteur do voluptate non
                   culpa. Nostrud anim cillum aliquip ut cupidatat incididunt.
@@ -350,13 +347,17 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">Graphic Designer</p>
 
-                <p className="text-md px-2">
-                  Laborum aliquip ut dolor eiusmod cillum culpa magna sit enim
-                  est pariatur cillum. Reprehenderit excepteur do voluptate non
-                  culpa. Nostrud anim cillum aliquip ut cupidatat incididunt.
-                  Reprehenderit laboris pariatur laboris sunt sint minim magna
-                  est consectetur laboris. Non ex sit aliqua dolor consequat
-                  excepteur.
+                <p className="text-md px-2 leading-tight">
+                  Wella is a multitalented visual artist whose works includes
+                  conceptual, digital, commercial, and fine art across a variety
+                  of mediums. As a big fan of the weird and mystical, they
+                  excitingly joined the Anthromancer project during the 2020
+                  Kickstarter. They've contributed by adding the Quick Guide:
+                  Mercenarium, designing the packaging, and implementing many
+                  user-centered design choices to Anthromancer resources.
+                  Continuing to build the Anthromancer experience with this
+                  incredible team for this flourishing community is their focus.
+                  Also their peanut butter kitty cat, Bean.
                 </p>
               </div>
             </div>
@@ -382,13 +383,14 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">Web Developer/Musician</p>
 
-                <p className="text-md px-2">
-                  Laborum aliquip ut dolor eiusmod cillum culpa magna sit enim
-                  est pariatur cillum. Reprehenderit excepteur do voluptate non
-                  culpa. Nostrud anim cillum aliquip ut cupidatat incididunt.
-                  Reprehenderit laboris pariatur laboris sunt sint minim magna
-                  est consectetur laboris. Non ex sit aliqua dolor consequat
-                  excepteur.
+                <p className="text-md px-2 leading-tight">
+                  Jacob is one of our web devs and UI designers for
+                  Anthromancer, and excitedly looks forward to contributing
+                  music and art as well in our future projects. He works as a
+                  web dev and dedicates the most time and energy to his many
+                  passions: music production/engineering, playing bass and
+                  handpan, fire spinning rope/meteordart/meteor, and making
+                  daily kaleidoscopic digital art pieces.
                 </p>
               </div>
             </div>
@@ -416,13 +418,16 @@ export default function Team() {
                   Business Operations Manager
                 </p>
 
-                <p className="text-md px-2">
-                  Laborum aliquip ut dolor eiusmod cillum culpa magna sit enim
-                  est pariatur cillum. Reprehenderit excepteur do voluptate non
-                  culpa. Nostrud anim cillum aliquip ut cupidatat incididunt.
-                  Reprehenderit laboris pariatur laboris sunt sint minim magna
-                  est consectetur laboris. Non ex sit aliqua dolor consequat
-                  excepteur.
+                <p className="text-md px-2 leading-tight">
+                  Hank has known Dan since 2013 and instantly recognized his
+                  creativity. When Dan approached him with the idea for
+                  Anthromancer, he was ecstatic to help develop it. He's managed
+                  several businesses over the years (currently running three)
+                  and enjoys connecting with people. He's knowledgeable on
+                  music, enjoys stand up comedy, hockey and building his nft
+                  collection. He also has a passion for building and renovating
+                  with his hands. A jack of all trades, trying his best to
+                  master all his interests.
                 </p>
               </div>
             </div>
@@ -448,13 +453,13 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">Frontman/Creator</p>
 
-                <p className="text-md px-2">
-                  Laborum aliquip ut dolor eiusmod cillum culpa magna sit enim
-                  est pariatur cillum. Reprehenderit excepteur do voluptate non
-                  culpa. Nostrud anim cillum aliquip ut cupidatat incididunt.
-                  Reprehenderit laboris pariatur laboris sunt sint minim magna
-                  est consectetur laboris. Non ex sit aliqua dolor consequat
-                  excepteur.
+                <p className="text-md px-2 leading-snug">
+                  Dan is an artist/entertainer/spotlight hog from St. Louis with
+                  a penchant for old books and final fantasy. A gigantic
+                  buffoon, but intentionally. Known internationally as Dr. Dan
+                  the Pancake Man, the world's first professional pancake
+                  artist; doing everything in his power to be known for a lot
+                  more. Anthromancer is his fault.
                 </p>
               </div>
             </div>
@@ -477,7 +482,6 @@ export default function Team() {
           <div className="w-full text-md py-8 px-0 -mx-12 z-0">
             <Roadmap />
           </div>
-          <img src="/favicon.png" className="w-16 mt-12" />
         </div>
       </div>
       <div className="mt-4">
