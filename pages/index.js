@@ -666,9 +666,13 @@ export default function Home() {
       <div className="px-24 ">
         <Roadmap />
       </div>
-      <div className="px-10 pb-6 lg:px-64 max-w-7xl h-64 w-full bg-th-background flex mx-auto justify-between">
-        <div className="rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light"></div>
-        <div className="rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light"></div>
+      <div className="-mt-16 px-10 pb-8 lg:px-64 max-w-8xl h-56 w-full bg-th-background flex mx-auto justify-between">
+        <div className="rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light">
+          <img src="/Asset+43.png" />
+        </div>
+        <div className="rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light">
+          <img src="/Asset+41.png" className="rounded-full" />
+        </div>
         <div className="rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light"></div>
       </div>
       <Footer />

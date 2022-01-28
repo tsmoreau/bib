@@ -313,15 +313,17 @@ export default function Team() {
                   Terrence Moreau
                 </p>
 
-                <p className="text-2xl  mb-4 my-2">Project Lead/Tech Lead</p>
+                <p className="text-2xl  mb-4 my-2">Technical Lead</p>
 
-                <p className="text-md px-2">
-                  Laborum aliquip ut dolor eiusmod cillum culpa magna sit enim
-                  est pariatur cillum. Reprehenderit excepteur do voluptate non
-                  culpa. Nostrud anim cillum aliquip ut cupidatat incididunt.
-                  Reprehenderit laboris pariatur laboris sunt sint minim magna
-                  est consectetur laboris. Non ex sit aliqua dolor consequat
-                  excepteur.
+                <p className="text-md px-2 leading-tight">
+                  Terrence makes things. He has been programming in Solidity
+                  since 2019, has written smart contracts for NFT Market
+                  Platforms, Fully-On-Chain Art Projects, Generative Art
+                  Experiements, and more. He received training as an Illustrator
+                  at the Academy of Art San Francsico and does illustration and
+                  comics work in the NFT space and beyond. His original training
+                  was in physical building and design, and also builds and
+                  consults on off-grid tiny homes.
                 </p>
               </div>
             </div>
