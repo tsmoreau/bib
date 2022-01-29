@@ -37,7 +37,7 @@ function BackToTop() {
 
 function Flair() {
   return (
-    <div className="w-full justify-center flex mx-auto lg:mt-48 -mb-6 lg:-mb-24">
+    <div className="w-full border justify-center flex mx-auto lg:mt-48 -mb-6 lg:-mb-24">
       <div className="w-screen flex mx-auto justify-center">
         <div className="w-10/12">
           <p className="relative flex mx-auto text-center justify-center">
@@ -273,10 +273,10 @@ function Slider1() {
             </a>
           </div>
 
-          <div className="w-1/2  h-auto  flex justify-center">
+          <div className="w-5/12 h-auto  flex mx-auto  justify-center">
             <img
-              src="/heroshot1.jpg"
-              className="w-116 h-116 xl:w-128 xl:h-128 object-cover h-full rounded-full border border-2 border-th-accent-light"
+              src="/FishHero.jpg"
+              className="w-116 h-116 object-cover h-full rounded-full border border-2 border-th-accent-light"
             />
           </div>
         </div>
@@ -290,18 +290,18 @@ function Slider2b() {
     <div className="flex mx-auto px-4 py-2 w-full mt-6">
       <div className="bg-th-background shadow-xl shadow-slate-400/20 h-144  w-11/12  lg:w-11/12 xl:w-10/12 text-right  mb-4 flex mx-auto rounded-lg">
         <div className="w-full h-full bg-th-background items-center justify-between rounded-lg flex">
-          <div className="w-1/2  h-auto  flex justify-center">
+          <div className="w-5/12  h-auto  flex mx-auto  justify-center">
             <img
-              src="/heroshot1.jpg"
-              className="w-116 h-116 xl:w-128 xl:h-128 object-cover h-full rounded-full border border-2 border-th-accent-light"
+              src="/DiceBoy.jpg"
+              className="w-116 h-116 object-cover h-full rounded-full border border-2 border-th-accent-light"
             />
           </div>
 
           <div className="w-1/2 justify-end ">
             <div className=" flex w-auto">
-              <div className="mt-3  flex mx-auto justify-end">
+              <div className="mt-3 flex mx-auto w-max  justify-end mr-12">
                 <p className="font-futurapt w-min lg:w-auto  font-thin text-5xl my-2 mb-4 decoration-th-accent-light underline">
-                  A Future Focused Outlook
+                  A Future Focused Vision
                 </p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -358,7 +358,23 @@ function Slider3b() {
                   Blog Post | JANUARY 28th 2022 | Daniel James Drake
                 </p>
               </div>
+
               <div className="flex mx-auto justify-start">
+                <div className="mt-3  flex animate-rotateInUpRight animate-animated animate-repeat-[1] animate-delay-[1000ms] animate-duration-[4s]">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 17.86 17.86"
+                    className="fill-th-accent-light"
+                  >
+                    <g id="Layer_2" data-name="Layer 2">
+                      <g id="Layer_1-2" data-name="Layer 1">
+                        <path d="M17.16,5.45c-.09-.22-.19-.42-.29-.63s-.33-.58-.33-.58A8.95,8.95,0,0,0,12.39.69,9.7,9.7,0,0,0,8.89,0,9.08,9.08,0,0,0,5.42.71,8.93,8.93,0,0,0,2.6,2.63,9.19,9.19,0,0,0,1.17,4.5L.93,5c-.08.17-.16.33-.23.51a8.92,8.92,0,0,0,0,7c.11.25.22.5.35.74,0,0,.15.28.3.51A8.91,8.91,0,0,0,8.5,17.85s.27,0,.54,0a8.89,8.89,0,0,0,6.22-2.62,8.85,8.85,0,0,0,2.6-6.3A8.64,8.64,0,0,0,17.16,5.45ZM.77,9.82A7.52,7.52,0,0,1,.72,9a7.87,7.87,0,0,1,0-.84A3.87,3.87,0,0,0,1,8.83L1.1,9A5.31,5.31,0,0,0,.77,9.82ZM16,4.69a3.89,3.89,0,0,1,.59,2.07,4,4,0,0,1-.25,1.39A4.75,4.75,0,0,0,15,7a4.62,4.62,0,0,0-1.76-.57,5,5,0,0,0,.36-1.82,4.92,4.92,0,0,0-.36-1.74A4,4,0,0,1,16,4.69ZM13.23,7.16a3.8,3.8,0,0,1,.88.23,3.91,3.91,0,0,1,1.82,1.49,3.88,3.88,0,0,1-1.37,1.3,4.09,4.09,0,0,1-1.31.46,4.62,4.62,0,0,0,0-3.48ZM13,1.79a5.92,5.92,0,0,1,.7.45,2.3,2.3,0,0,0-.28-.06,5.79,5.79,0,0,0-.6-.07,6.36,6.36,0,0,0-.56-.7A7.39,7.39,0,0,1,13,1.79ZM11.57,9.36a5.26,5.26,0,0,0-.85-.44,4.86,4.86,0,0,0,.84-.46,5.23,5.23,0,0,0,1-1,3.87,3.87,0,0,1,0,2.84A4.9,4.9,0,0,0,11.57,9.36Zm.34,1.26a3.78,3.78,0,0,1-1.07-.37,3.9,3.9,0,0,1-1.16-.89,3.82,3.82,0,0,1,2.23,1.26ZM9.69,8.48a4.53,4.53,0,0,1,.68-.63,3.79,3.79,0,0,1,1.49-.64,4,4,0,0,1-1,.82A3.77,3.77,0,0,1,9.69,8.48ZM12.81,5a3.74,3.74,0,0,1-.24,1,4.64,4.64,0,0,0-1.35-1.15,4.34,4.34,0,0,0-1.68-.56A3.89,3.89,0,0,1,11.47,3a3.85,3.85,0,0,1,.92-.17A4.2,4.2,0,0,1,12.77,4,3.8,3.8,0,0,1,12.81,5Zm-2.13.41a4.09,4.09,0,0,1,1.3,1,5,5,0,0,0-1.36.42,4,4,0,0,0-.8.51,5,5,0,0,0,0-1,4.58,4.58,0,0,0-.34-1.38A3.81,3.81,0,0,1,10.68,5.41Zm-.81,6a4.25,4.25,0,0,0,0-.94,4.45,4.45,0,0,0,.82.49,4.55,4.55,0,0,0,1.35.39,3.81,3.81,0,0,1-.93.86,3.92,3.92,0,0,1-1.52.59A4.58,4.58,0,0,0,9.87,11.42Zm1.42,1.51a4.6,4.6,0,0,0,1.32-1.17,3.38,3.38,0,0,1,.26,1A3.87,3.87,0,0,1,12.48,15a3.92,3.92,0,0,1-2.3-.89,3.71,3.71,0,0,1-.57-.55A4.58,4.58,0,0,0,11.29,12.93ZM6.69,1.4A3.82,3.82,0,0,1,8.23.78a3.91,3.91,0,0,1,2.39.34,3.87,3.87,0,0,1,1.32,1,4.67,4.67,0,0,0-1.67.58A4.9,4.9,0,0,0,8.89,4a4.66,4.66,0,0,0-1.4-1.21,4.42,4.42,0,0,0-1.67-.57A4,4,0,0,1,6.69,1.4ZM8.94,9.79a3.85,3.85,0,0,1,.22,1.27,3.76,3.76,0,0,1-.2,1.3A3.88,3.88,0,0,1,8.74,11,3.74,3.74,0,0,1,8.94,9.79ZM8.7,6.65a3.71,3.71,0,0,1,.21-1.14A4.12,4.12,0,0,1,9.13,7a5.13,5.13,0,0,1-.2,1.08A3.81,3.81,0,0,1,8.7,6.65ZM8.19,9.37a4,4,0,0,1-1,.83A3.81,3.81,0,0,1,6,10.67a4.46,4.46,0,0,1,.86-.76A3.92,3.92,0,0,1,8.19,9.37ZM7.3,8.23A3.78,3.78,0,0,1,6,7.24a4.15,4.15,0,0,1,1.16.42,3.78,3.78,0,0,1,1.06.85A3.92,3.92,0,0,1,7.3,8.23ZM8,6.44a4.35,4.35,0,0,0,0,.95,4,4,0,0,0-.82-.49,4.66,4.66,0,0,0-1.36-.4,4,4,0,0,1,.78-.75,3.78,3.78,0,0,1,1.68-.69A4.54,4.54,0,0,0,8,6.44ZM6.58,4.93A4.51,4.51,0,0,0,5.25,6.1a3.56,3.56,0,0,1-.13-.39A3.76,3.76,0,0,1,5,4.46a3.83,3.83,0,0,1,.4-1.56,3.77,3.77,0,0,1,1.7.47,3.92,3.92,0,0,1,1.17,1A4.34,4.34,0,0,0,6.58,4.93ZM5.26,7.53a4.75,4.75,0,0,0,1,1,4.19,4.19,0,0,0,.84.44,4.76,4.76,0,0,0-1.86,1.45A4,4,0,0,1,5,9.08,4.07,4.07,0,0,1,5.26,7.53Zm2,3.46a4.2,4.2,0,0,0,.81-.5,5,5,0,0,0,0,.95,4.65,4.65,0,0,0,.34,1.38,4,4,0,0,1-2.48-1.41A4.51,4.51,0,0,0,7.24,11ZM5,1.73c.15-.08.33-.17.52-.25a4.65,4.65,0,0,0-.54.7,5.31,5.31,0,0,0-.89.13A9.38,9.38,0,0,1,5,1.73Zm-.34,9A3.32,3.32,0,0,1,4,10.55,3.91,3.91,0,0,1,1.93,9,4,4,0,0,1,3.8,7.45a3.73,3.73,0,0,1,.81-.22,4.66,4.66,0,0,0,0,3.47Zm-3-5.55a3.91,3.91,0,0,1,1.6-1.74,4.14,4.14,0,0,1,1.33-.47,4.72,4.72,0,0,0-.33,1.74A4.76,4.76,0,0,0,4.64,6.5a4.54,4.54,0,0,0-1.75.6A4.6,4.6,0,0,0,1.56,8.27a4,4,0,0,1-.28-1.33A3.79,3.79,0,0,1,1.65,5.15ZM2,13.24H2a3.86,3.86,0,0,1-.64-2.08,4,4,0,0,1,.26-1.45,4.69,4.69,0,0,0,1.34,1.15,4.61,4.61,0,0,0,1.77.57,4.58,4.58,0,0,0-.36,1.82A4.52,4.52,0,0,0,4.68,15a4,4,0,0,1-1.35-.45A3.91,3.91,0,0,1,2,13.24Zm2.94,2.84c-.24-.14-.48-.29-.71-.45l.17,0a4.43,4.43,0,0,0,.72.09,5.54,5.54,0,0,0,.56.7C5.38,16.34,5.13,16.21,4.89,16.08ZM5.51,15h0a4.3,4.3,0,0,1-.37-1,4.2,4.2,0,0,1-.06-1,3.82,3.82,0,0,1,.25-1.16A4.4,4.4,0,0,0,6.65,13a4.42,4.42,0,0,0,1.67.57,4.07,4.07,0,0,1-1.41,1.12A4.21,4.21,0,0,1,5.83,15Zm5.69,1.43a3.94,3.94,0,0,1-4,.28,4.13,4.13,0,0,1-1.28-1,4.86,4.86,0,0,0,1.68-.59A5,5,0,0,0,9,13.87a4.66,4.66,0,0,0,1.4,1.21,4.59,4.59,0,0,0,1.68.57A4,4,0,0,1,11.2,16.45Zm1.15-.05a4.89,4.89,0,0,0,.55-.72,4.24,4.24,0,0,0,.89-.13A8,8,0,0,1,12.35,16.4ZM16.08,13a3.87,3.87,0,0,1-1.55,1.53,4,4,0,0,1-1.24.42,4.68,4.68,0,0,0-.06-3.55A4.75,4.75,0,0,0,15,10.76a4.51,4.51,0,0,0,1.33-1.17,4.21,4.21,0,0,1,.28,1.33A4,4,0,0,1,16.08,13Zm1-3.27a4.92,4.92,0,0,0-.23-.6,1.71,1.71,0,0,0-.12-.23A4.31,4.31,0,0,0,17.09,8a5.87,5.87,0,0,1,.05.83A5.9,5.9,0,0,1,17.11,9.7Z" />
+                      </g>
+                    </g>
+                  </svg>
+                </div>
                 <p className="font-futurapt font-thin md:text-4xl lg:text-5xl my-2 mb-4 decoration-th-accent-light ">
                   Yggdrasil Token Drop
                 </p>
@@ -388,10 +404,19 @@ function Slider3b() {
           </div>
 
           <div className="w-1/2  h-auto  flex justify-center">
-            <img
-              src="/heroshot1.jpg"
-              className="w-116 h-116 xl:w-128 xl:h-128 object-cover h-full rounded-xl mr-4 border border-2 border-th-accent-light"
-            />
+            <video
+              width="420"
+              height="240"
+              autoPlay
+              muted
+              loop
+              className="rounded-lg border border-th-accent-light flex mx-auto"
+            >
+              <source
+                src="https://gateway.ipfs.io/ipfs/QmVwJGSZmsBzsseFEx3RtCnGL8q5d1DXZQxUkDt7aCjEpd"
+                type="video/mp4"
+              />
+            </video>
           </div>
         </div>
       </div>
@@ -401,7 +426,7 @@ function Slider3b() {
 
 function Slider4() {
   return (
-    <div className="flex mx-auto px-4 py-2 w-full mt-8 max-w-7xl">
+    <div className="flex mx-auto  py-2 w-full mt-8 max-w-screen lg:max-w-7xl">
       <Flair />
     </div>
   );
@@ -570,16 +595,18 @@ export default function Home() {
         <div className="relative z-0 mt-0  rounded-lg overflow-hidden items-center w-full  h-96 md:h-136  lg:h-156">
           <div className="">
             <img
-              src="/ProductShot.jpg"
+              src="/GetLowHero2.jpg"
               className=" object-cover w-full h-96 md:h-136 mr-64 lg:h-156 object-center rounded-lg  "
             />
+            <div className="absolute bottom-0 w-full h-6 bg-gradient-to-b from-transparent to-black"></div>
           </div>
+
           <div className="opacity-50 text-white absolute top-0 text-left w-full h-48 justify-end">
             <p className="invisible font-thin leading-wide drop-shadow-lg text-xl leading-snug mb-2 -mt-1 ">
               Expressed through the Visual Language of Sean Calen Blake
             </p>
           </div>
-          <div className="absolute bottom-12 lg:bottom-20 inset-x-0 w-full flex flex-col items-center mx-auto justify-center">
+          <div className="absolute bottom-6 lg:bottom-20 inset-x-0 w-full flex flex-col items-center mx-auto justify-center">
             <a href="https://anthromancy.backerkit.com/hosted_preorders">
               <div className="animate-pulse animate-animated animate-repeat-[7]  text-center font-thin font-futurapt text-xl lg:text-3xl text-th-primary-dark px-8 py-1 pt-1 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-accent-light hover:border-th-primary-medium cursor-pointer ">
                 PREORDER NOW
@@ -666,14 +693,16 @@ export default function Home() {
       <div className="px-24 ">
         <Roadmap />
       </div>
-      <div className="-mt-16 px-10 pb-8 lg:px-64 max-w-8xl h-56 w-full bg-th-background flex mx-auto justify-between">
-        <div className="rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light">
+      <div className="mt-12 lg:-mt-16 px-10 pb-8 lg:px-64 max-w-3xl lg:max-w-8xl h-56 w-full bg-th-background flex mx-auto justify-between">
+        <div className="border border-th-primary-dark border-2 rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light">
           <img src="/Asset+43.png" />
         </div>
-        <div className="rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light">
+        <div className="border border-th-primary-dark rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light">
           <img src="/Asset+41.png" className="rounded-full" />
         </div>
-        <div className="rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light"></div>
+        <div className="border border-th-primary-dark rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light">
+          <img src="/Asset+42.png" className="rounded-full" />
+        </div>
       </div>
       <Footer />
       <style jsx>{`

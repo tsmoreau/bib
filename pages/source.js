@@ -57,26 +57,28 @@ export default function Home() {
         <div className=" w-full bg-th-background shadow-xl shadow-slate-400/20 mt-2 font-futurapt text-center justify-center flex mx-auto">
           <div className="overflow-hidden relative  h-136 w-full text-right  pb-4 flex  rounded-lg">
             <img
-              src="/ProductShot.jpg"
-              className="object-cover w-full h-136 object-center rounded-lg  "
+              src="/HeroShotDeux.jpg"
+              className="object-cover w-full h-136 object-center rounded-lg shadow-xl shadow-slate-400/20 "
             />
             <div className="font-thin text-white absolute bottom-20 left-12 text-left  justify-end">
-              <p className=" text-6xl   my-2 mb-4 decoration-th-accent-light underline">
+              <p className="drop-shadow-xl text-6xl   my-2 mb-4 decoration-th-accent-light underline">
                 Anthromancer
               </p>
               <p className=" text-2xl font-thin   my-2">First Edition</p>
-              <p className="font-thin leading-wide  text-xl leading-snug  mt-2 ">
+              <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug  mt-2 ">
                 The Ground-Breaking Original Board Game
               </p>
-              <p className="font-thin leading-wide  text-xl leading-snug -mt-1  ">
+              <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug -mt-1  ">
                 From the mind of Daniel James Drake and
               </p>
-              <p className="font-thin leading-wide  text-xl leading-snug mb-2 -mt-1 ">
+              <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug mb-2 -mt-1 ">
                 Expressed through the Visual Language of Sean Calen Blake
               </p>
             </div>
             <div className="font-thin absolute bottom-6 text-center left-12  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium shadow-xl shadow-slate-400/20-th-accent-light hover:bg-th-accent-light hover:shadow-xl shadow-slate-400/20-th-primary-medium cursor-pointer ">
-              ORDER NOW
+              <a href="https://anthromancy.backerkit.com/hosted_preorders">
+                ORDER NOW
+              </a>
             </div>
           </div>
         </div>
@@ -118,7 +120,7 @@ export default function Home() {
                   </p>
                   <div className="flex mx-auto  justify-end">
                     <a href="/tokens/yggdrasil">
-                      <p className="border border-th-accent-light font-thin mt-8 mr-8 w-80 text-center  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
+                      <p className="border border-th-accent-light font-thin mt-8 mr-10 w-80 text-center  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
                         AVAILABLE TO CLAIM NOW
                       </p>
                     </a>
@@ -136,7 +138,7 @@ export default function Home() {
                   className="object-overflow border rounded-lg z-50 border border-2 border-th-accent-light"
                 />
               </div>
-              <div className="ml-2 z-0 flex flex-col my-auto">
+              <div className="ml-10 z-0 flex flex-col my-auto">
                 <div className=" text-left  justify-end">
                   <p className="text-6xl font-thin  my-2 mb-4 decoration-th-accent-light underline">
                     Anthropos

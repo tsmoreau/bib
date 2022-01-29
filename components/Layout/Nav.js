@@ -426,7 +426,7 @@ export default function IndexPage() {
             <div className="h-px -mt-0.5"></div>
           ) : (
             <div>
-              <div className="font-molle text-2xl py-2 pt-0.5 bg-th-background px-6 w-full flex lg:hidden justify-between items-center  top-0 z-40">
+              <div className="font-molle text-2xl h-16 pt-0.5 bg-th-background px-6 w-full flex lg:hidden justify-between items-center  top-0 z-40">
                 <a href="/">
                   <div className="-mb-1 w-56 -ml-4 mr-4">
                     <Logo />
@@ -443,8 +443,8 @@ export default function IndexPage() {
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="stroke-th-primary-dark stroke-1 icon icon-tabler icon-tabler-x "
-                        width={24}
-                        height={24}
+                        width={28}
+                        height={28}
                         viewBox="0 0 24 24"
                         strokeWidth="1.5"
                         stroke="th-primary-dark"
@@ -483,8 +483,8 @@ export default function IndexPage() {
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="stroke-th-primary-dark stroke-1 icon icon-tabler icon-tabler-x "
-                        width={24}
-                        height={24}
+                        width={28}
+                        height={28}
                         viewBox="0 0 24 24"
                         strokeWidth="1.5"
                         stroke="th-primary-dark"

@@ -8,6 +8,7 @@ module.exports = withAnimations({
   theme: {
     extend: {
       spacing: {
+        "108": "24rem",
         "116": "28rem",
         "128": "32rem",
         "136": "34rem",

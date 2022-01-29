@@ -37,7 +37,7 @@
 
 :root {
   --background: theme("colors.black");
-  --background-secondary: theme("colors.gray.800");
+  --background-secondary: theme("colors.white");
 
   --accent-dark: theme("colors.yggpurple.300");
   --accent-medium: theme("colors.yggpurple.500");
@@ -51,7 +51,7 @@
 
 [data-theme="light"] {
   --background: theme("colors.white");
-  --background-secondary: theme("colors.gray.200");
+  --background-secondary: theme("colors.black");
 
   --accent-dark: theme("colors.sky.900");
   --accent-medium: theme("colors.sky.700");
