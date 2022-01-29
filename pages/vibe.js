@@ -138,7 +138,10 @@ export default function Home() {
             euismod quis viverra nibh. Eget egestas purus viverra accumsan in
             nisl nisi. Ullamcorper malesuada proin libero nunc consequat.
           </p>
-          <div className="bg-th-accent-light h-1 w-full my-4 mb-6"></div>
+          <div className="bg-th-accent-light h-1 w-full my-4 mb-0"></div>
+        </div>
+        <div className="text-xl my-2 italic mt-4">
+          More Posts On The Way... Check Back Again Soon!
         </div>
       </main>
       <Footer />

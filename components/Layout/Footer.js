@@ -64,7 +64,7 @@ export default function IndexPage() {
 
       <div className="hidden pt-10  py-4 lg:flex mx-auto justify-center w-full text-base font-futurapt font-thin">
         <div className="pt-10 justify-center text-center w-full text-base font-futurapt font-thin">
-          <div className="flex mx-auto justify-center">
+          <div className="flex  mx-auto justify-center">
             <img src="/favicon.png" className="w-12 py-4 pb-8" />
           </div>
           <div className="ml-5 text-base font-futurapt font-thin w-full flex  justify-center">

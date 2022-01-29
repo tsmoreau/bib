@@ -8,13 +8,7 @@ export default function Roadmap() {
       {/* <div className="section"></div> */}
       <Controller>
         <div className=" h-full w-full">
-          <Scene
-            duration={1400}
-            indicators
-            pin={false}
-            reverse={true}
-            offset={50}
-          >
+          <Scene duration={1400} pin={false} reverse={true} offset={50}>
             {(progress) => (
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 2600">
                 <rect

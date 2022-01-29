@@ -38,7 +38,7 @@ export default function Home() {
             <div className="w-full lg:w-5/12  h-auto flex justify-center">
               <img
                 src="/Yggdrasil.gif"
-                className="w-116 h-116 lg:ml-24  object-cover h-full   border-th-accent-light"
+                className="w-auto h-auto lg:ml-24  object-cover h-full   border-th-accent-light"
               />
             </div>
             <div className="z-50 absolute right-0 lg:w-7/12 text-right ">
@@ -78,7 +78,7 @@ export default function Home() {
           <div className="z-50 h-full w-full lg:w-5/12 flex justify-center items-center h-auto z-0 absolute inset-y-0 right-12 rounded-lg">
             <img
               src="anth4.svg"
-              className="object-overflow border rounded-lg z-50 border border-2 border-th-accent-light"
+              className="object-overflow  rounded-lg z-50 "
             />
           </div>
           <div className="ml-10 z-0 flex flex-col my-auto">
@@ -115,6 +115,44 @@ export default function Home() {
     return (
       <div className="flex mx-auto  py-4 ">
         <div className="relative max-w-7x shadow-xl shadow-slate-400/20 h-128 l w-full text-right  pb-4 flex mx-auto shadow-xl shadow-slate-400/20 rounded-lg">
+          <div class="w-5/12 my-12 flex gap-6 shrink-0 snap-x overflow-x-auto absolute inset-y-0 left-12">
+            <div class="snap-center shrink-0 w-full">
+              <img
+                class="bg-white  w-96 h-96 rounded-lg"
+                src="https://ipfs.infura.io/ipfs/QmQwkQ1ebS7uw9K9KNNbsN1AH2C55Fy8CALiWPopEgautD"
+              />
+            </div>
+            <div class="snap-center shrink-0 w-full">
+              <img
+                class="bg-white w-96 h-96 rounded-lg"
+                src="https://ipfs.infura.io/ipfs/QmR5TghpydnL4La5a4RRKe1i9UXCmF3XBg2tAYC4R6ghri"
+              />
+            </div>
+            <div class="snap-center shrink-0 w-full">
+              <img
+                class="bg-white  w-96 px-2 rounded-lg"
+                src="https://ipfs.infura.io/ipfs/QmeZZDQf4nWHXeD3MwEBeRAgyHQSEQrF5uLHAhpweFDefL"
+              />
+            </div>
+            <div class="snap-center shrink-0 w-full">
+              <img
+                class="bg-white w-96 px-16 py-4 rounded-lg"
+                src="https://ipfs.infura.io/ipfs/QmWJRHsHFUYzsGMKqU2KjFtjTNoAQcq2AagDJrqbrXhgsr"
+              />
+            </div>
+            <div class="snap-center shrink-0  w-full">
+              <img
+                class="bg-white  w-96 px-6 py-4 rounded-lg"
+                src="https://ipfs.infura.io/ipfs/QmbJqpEGkycjFvogpditwMP8dN827LDc5HJ68d7fhdMuAV"
+              />
+            </div>
+            <div class="snap-center shrink-0  w-full">
+              <img
+                class="bg-white w-96 px-12 py-1 rounded-lg"
+                src="https://ipfs.infura.io/ipfs/QmZMRz7NgKN3ZUauo3vPKQgjk3FnHMw6v5V2Xzo56CqKDJ"
+              />
+            </div>
+          </div>
           <div className="absolute bottom-20 right-12 text-right  justify-end">
             <p className="text-5xl font-thin  my-2 mb-4 decoration-th-accent-light underline">
               Hymns
