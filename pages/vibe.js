@@ -141,7 +141,7 @@ export default function Home() {
           <div className="bg-th-accent-light h-1 w-full my-4 mb-0"></div>
         </div>
         <div className="text-xl my-2 italic mt-4">
-          More Posts On The Way... Check Back Again Soon!
+          More Posts On The Way... Be Sure To Check Back Again Soon!
         </div>
       </main>
       <Footer />
