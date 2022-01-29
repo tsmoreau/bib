@@ -1075,6 +1075,12 @@ export default function Roadmap() {
                         width={257.1}
                         height={107.56}
                         rx={11.14}
+                        style={{
+                          fill: "#000000",
+                          stroke: "#f2f2f2",
+                          strokeMiterlimit: 10,
+                          strokeWidth: 1
+                        }}
                       />
                       <path
                         d="M659.51 2099.57a9.14 9.14 0 0 1 9.14 9.14V2194a9.14 9.14 0 0 1-9.14 9.14H424.69a9.14 9.14 0 0 1-9.14-9.14v-85.27a9.14 9.14 0 0 1 9.14-9.14h234.82m0-4H424.69a13.16 13.16 0 0 0-13.14 13.14V2194a13.16 13.16 0 0 0 13.14 13.14h234.82a13.15 13.15 0 0 0 13.14-13.14v-85.27a13.15 13.15 0 0 0-13.14-13.14Z"
@@ -1140,10 +1146,11 @@ export default function Roadmap() {
                         height={95.53}
                         rx={4.17}
                         style={{
-                          fill: "none",
+                          fill: "#000000",
                           stroke: "#f2f2f2",
                           strokeMiterlimit: 10,
-                          opacity: 0.30000000000000004
+                          strokeWidth: 1,
+                          strokeOpacity: 0.25
                         }}
                       />
 
@@ -1198,10 +1205,10 @@ export default function Roadmap() {
                         height={95.53}
                         rx={4.17}
                         style={{
-                          fill: "none",
+                          fill: "#000000",
                           stroke: "#f2f2f2",
                           strokeMiterlimit: 10,
-                          opacity: 0.30000000000000004
+                          strokeOpacity: 0.25
                         }}
                       />
                       <path

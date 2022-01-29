@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="w-full h-full bg-th-background">
       <Head>
-        <title>Anthromancer - Vibe</title>
+        <title>Vibe | Anthromancer</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Nav />
@@ -32,10 +32,23 @@ export default function Home() {
         </div>
 
         {/* Main Post Area */}
-        <div className="mt-8 w-full justify-start text-left">
+        <div className="mt-12 w-full justify-start text-left">
+          <p className="text-5xl">Yggdrasil Reward Token Drop</p>
+          <p className="text-xl mt-2">
+            Published On | JANUARY 30th 2022 | Daniel James Drake
+          </p>
+
+          <div className="flex mx-auto justify-start mt-2">
+            <p className="text-base px-2 py-0.5 bg-th-accent-light">tags:</p>
+            <p className="text-base px-2 py-0.5 bg-th-accent-light">tokens</p>
+            <p className="text-base px-2 py-0.5 bg-th-accent-light">
+              yggdrasil
+            </p>
+          </div>
+          <div className="bg-th-accent-light h-1 w-full "></div>
           <div className="w-8/12 flex mx-auto rounded-lg mt-4 justify-center">
             <video
-              width="320"
+              width="520"
               height="240"
               autoPlay
               muted
@@ -48,19 +61,13 @@ export default function Home() {
               />
             </video>
           </div>
-          <p className="text-5xl">Blog Title</p>
-          <p className="text-xl mt-2">
-            Published On | JANUARY 30th 2022 | Daniel James Drake
-          </p>
-          <div className="flex mx-auto justify-start mt-2">
-            <p className="text-base px-2 py-0.5 bg-th-accent-light">tags:</p>
-            <p className="text-base px-2 py-0.5 bg-th-accent-light">tokens</p>
-            <p className="text-base px-2 py-0.5 bg-th-accent-light">
-              yggdrasil
-            </p>
+          <div className="w-full text-center italic text-sm text-slate-500/50">
+            Yggdarsil Token Image, Depicting the Great World-Tree
           </div>
-          <div className="bg-th-accent-light h-1 w-full "></div>
-          <div className="w-full leading-snug mt-4">
+          <div className="bg-th-accent-light h-1 w-full my-2 mb-6"></div>
+
+          {/* Main Post Contents*/}
+          <p className="w-full leading-snug mt-4 indent-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices
             tincidunt arcu non sodales neque sodales. At augue eget arcu dictum
@@ -77,8 +84,8 @@ export default function Home() {
             vitae purus faucibus. Morbi quis commodo odio aenean sed adipiscing
             diam donec. Mattis ullamcorper velit sed ullamcorper. Leo duis ut
             diam quam nulla porttitor.
-            <br />
-            <br />
+          </p>
+          <p className="w-full leading-snug mt-4 indent-8">
             Semper risus in hendrerit gravida rutrum. Mattis molestie a iaculis
             at erat pellentesque adipiscing. Nascetur ridiculus mus mauris vitae
             ultricies leo integer malesuada. Imperdiet proin fermentum leo vel
@@ -88,8 +95,8 @@ export default function Home() {
             Feugiat pretium nibh ipsum consequat. Facilisis mauris sit amet
             massa. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper
             dignissim.
-            <br />
-            <br />
+          </p>
+          <p className="w-full leading-snug mt-4 indent-8">
             Egestas dui id ornare arcu odio ut sem nulla pharetra. Justo eget
             magna fermentum iaculis. Morbi enim nunc faucibus a pellentesque sit
             amet porttitor eget. Nibh nisl condimentum id venenatis a. In massa
@@ -103,8 +110,8 @@ export default function Home() {
             integer quis auctor elit sed vulputate mi. Nec ultrices dui sapien
             eget mi proin. Laoreet sit amet cursus sit amet dictum. Odio euismod
             lacinia at quis risus sed. Sed lectus vestibulum mattis ullamcorper.
-            <br />
-            <br />
+          </p>
+          <p className="w-full leading-snug mt-4 indent-8">
             Consequat nisl vel pretium lectus quam id. Ipsum a arcu cursus vitae
             congue mauris rhoncus. Quam vulputate dignissim suspendisse in est
             ante in. Molestie a iaculis at erat pellentesque. Purus sit amet
@@ -118,8 +125,8 @@ export default function Home() {
             sagittis nisl. Eu volutpat odio facilisis mauris sit amet massa
             vitae. Egestas dui id ornare arcu odio ut sem. Nullam eget felis
             eget nunc lobortis mattis aliquam faucibus.
-            <br />
-            <br />
+          </p>
+          <p className="w-full leading-snug mt-4 indent-8">
             Ac ut consequat semper viverra nam. Malesuada proin libero nunc
             consequat interdum varius. Turpis nunc eget lorem dolor sed viverra
             ipsum nunc aliquet. Eget nunc lobortis mattis aliquam faucibus.
@@ -130,7 +137,8 @@ export default function Home() {
             facilisis. Orci sagittis eu volutpat odio facilisis. In arcu cursus
             euismod quis viverra nibh. Eget egestas purus viverra accumsan in
             nisl nisi. Ullamcorper malesuada proin libero nunc consequat.
-          </div>
+          </p>
+          <div className="bg-th-accent-light h-1 w-full my-4 mb-6"></div>
         </div>
       </main>
       <Footer />

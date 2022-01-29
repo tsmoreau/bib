@@ -41,7 +41,7 @@ function Flair() {
       <div className="w-screen flex mx-auto justify-center">
         <div className="w-full px-2 lg:w-10/12">
           <p className="relative flex mx-auto text-center justify-center">
-            <p className="absolute top-2 lg:top-10 text-2xl lg:text-7xl font-futurapt tracking-tight font-thin text-center text-th-primary-dark">
+            <p className="absolute top-2 lg:top-4 text-2xl lg:text-8xl font-futurapt tracking-tight font-thin text-center text-th-primary-dark">
               <a target="_blank" href="/path#roadmap">
                 THE ROAD MAP
               </a>
