@@ -176,16 +176,57 @@ export default function Team() {
         <div className="w-2/3 flex flex-col items-center py-8 mt-8">
           <div className="py-8 flex mx-auto text-left  justify-start w-full">
             <p className="text-th-primary-dark decoration-th-accent-light underline font-futurapt font-thin  text-6xl tracking-tight ">
-              ABOUT ANTHROMANCER
+              OUR MISSION
             </p>
           </div>
 
-          <div className="w-3/4 text-md py-4 px-1">
-            Laborum aliquip ut dolor eiusmod cillum culpa magna sit enim est
-            pariatur cillum. Reprehenderit excepteur do voluptate non culpa.
-            Nostrud anim cillum aliquip ut cupidatat incididunt. Reprehenderit
-            laboris pariatur laboris sunt sint minim magna est consectetur
-            laboris. Non ex sit aliqua dolor consequat excepteur.
+          <div className="w-full text-md py-4 px-1">
+            A Game. An Oracle. An Album. A Myth…
+            <br />
+            <br />
+            ...A Mission?
+            <br />
+            <br />
+            Anthromancer is a tabletop entertainment system – you know, a board
+            game – but through its imagery and mechanics, we seek to express
+            something altogether different. Something deeper, and stranger, than
+            your average crowdfunded box of plastic bits.
+            <br />
+            <br />
+            We seek to change the human understanding of Power.
+            <br />
+            <br />
+            This mission is expressed through the symbolic dichotomy between The
+            Fool and The Fox; two sides of the same coin, two faces on the path
+            towards enlightenment. It is expressed through the principles of
+            sacred geometry, that strange and ancient aesthetic system that
+            straddles the line between spirit and matter, illustrating the
+            fundamental order and beauty of reality. It is expressed through the
+            simple bliss of playing games with your friends. Through this
+            synthesis, it is our earnest hope that we will find a community of
+            like-minded seekers and build strength within a narrative that says:
+            There is hope for a better tomorrow; There is meaningful work to be
+            done, here and now; and There is a path we can follow that will take
+            us there.
+            <br />
+            <br />
+            (It all sounds a bit cult-y, but what doesn’t these days?)
+            <br />
+            <br />
+            Our flagship product – that tabletop experience we call Anthromancer
+            – debuts in the Spring of 2022 (on April Fool’s Day, no less). As
+            this product expands into its potential we will hit the ground
+            running and pour our momentum into our mission: changing human
+            beings, awakening them to their power, and giving them tools and
+            education they can leverage to make the world a better one for their
+            families and communities. We are not asking for permission to do
+            this. We are doing it, understanding we may fail, secure in the
+            knowledge that failure is the greatest cosmic teacher. Through the
+            parable of the Fool and the Fox, we draw strength, and we offer the
+            same strength to you.
+            <br />
+            <br />
+            Be Moved.
           </div>
           <img src="/favicon.png" className="w-16" />
         </div>
@@ -201,14 +242,84 @@ export default function Team() {
 
           <div className="w-full h-full grid grid-cols-1 lg:grid-cols-3 gap-x-2 gap-y-6 justify-evenly items-center">
             {/* //! INSIDE GRID  */}
+
+            {/* //Todo DAN */}
+            <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
+              {/* //Todo IMAGE ON LEFT */}
+
+              <div className="w-64 lg:w-64">
+                <img
+                  src="https://gateway.ipfs.io/ipfs/QmfFmttiDFfpGPFES7qUTQ1vPU1kSQN2Po9VgE4R2soXnh"
+                  className="flex rounded-full shadow-xl shadow-slate-400/20"
+                  alt="anthropos token svg"
+                />
+              </div>
+
+              {/* //Todo NAME AND TEXT ON RIGHT */}
+
+              <div className="w-11/12">
+                <p className="text-4xl  my-2 mb-4 decoration-th-accent-light underline">
+                  Daniel James Drake
+                </p>
+
+                <p className="text-2xl  mb-4 my-2">Frontman/Creator</p>
+
+                <p className="text-md px-2 leading-snug">
+                  Dan is an artist/entertainer/spotlight hog from St. Louis with
+                  a penchant for old books and final fantasy. A gigantic
+                  buffoon, but intentionally. Known internationally as Dr. Dan
+                  the Pancake Man, the world's first professional pancake
+                  artist; doing everything in his power to be known for a lot
+                  more. Anthromancer is his fault.
+                </p>
+              </div>
+            </div>
+
+            {/* //Todo HANK */}
+            <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
+              {/* //Todo IMAGE ON LEFT */}
+
+              <div className="w-64 lg:w-64">
+                <img
+                  src="https://gateway.ipfs.io/ipfs/QmUH7eL1c8C5mPvwY3PhidtbrHhC7gQJwhsADLuHeVpASV"
+                  className="flex rounded-full shadow-xl shadow-slate-400/20"
+                  alt="anthropos token svg"
+                />
+              </div>
+
+              {/* //Todo NAME AND TEXT ON RIGHT */}
+
+              <div className="w-11/12">
+                <p className="text-4xl  my-2 mb-4 decoration-th-accent-light underline">
+                  Hank Gustafson
+                </p>
+
+                <p className="text-2xl  mb-4 my-2">
+                  Business Operations Manager
+                </p>
+
+                <p className="text-md px-2 leading-tight">
+                  Hank has known Dan since 2013 and instantly recognized his
+                  creativity. When Dan approached him with the idea for
+                  Anthromancer, he was ecstatic to help develop it. He's managed
+                  several businesses over the years (currently running three)
+                  and enjoys connecting with people. He's knowledgeable on
+                  music, enjoys stand up comedy, hockey and building his nft
+                  collection. He also has a passion for building and renovating
+                  with his hands. A jack of all trades, trying his best to
+                  master all his interests.
+                </p>
+              </div>
+            </div>
+
             {/* //Todo  ALEX */}
             <div className="  py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
               {/* //Todo IMAGE ON LEFT */}
 
-              <div className="w-64 lg:w-64 shadow-xl shadow-slate-400/20">
+              <div className="w-64 lg:w-64">
                 <img
-                  src="/anth4.svg"
-                  className="flex "
+                  src="https://gateway.ipfs.io/ipfs/QmRbHvH7wQdeJsHZ9wm5x3HziFAR1wVya4PV3x93spBLHf"
+                  className="flex rounded-full shadow-xl shadow-slate-400/20"
                   alt="anthropos token svg"
                 />
               </div>
@@ -220,7 +331,9 @@ export default function Team() {
                   Alex Lapper
                 </p>
 
-                <p className="text-2xl  mb-4 my-2">WotC Game Judge</p>
+                <p className="text-2xl  mb-4 my-2">
+                  Community Manager & Mercenarium Judge{" "}
+                </p>
 
                 <p className="text-md px-2 leading-snug">
                   Alex loves film, games, learning about anything, and most of
@@ -232,76 +345,14 @@ export default function Team() {
               </div>
             </div>
 
-            {/* //Todo  RICHARD */}
-            <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
-              {/* //Todo IMAGE ON LEFT */}
-
-              <div className="w-64 lg:w-64 shadow-xl shadow-slate-400/20">
-                <img
-                  src="/anth4.svg"
-                  className="flex "
-                  alt="anthropos token svg"
-                />
-              </div>
-
-              {/* //Todo NAME AND TEXT ON RIGHT */}
-
-              <div className="w-11/12">
-                <p className="text-4xl  my-2 mb-4 decoration-th-accent-light underline">
-                  Richard Darling
-                </p>
-
-                <p className="text-2xl  mb-4 my-2">3D Visuals/Video Designer</p>
-
-                <p className="text-md px-2 leading-snug">
-                  Richie is a visual artist and musician living in St. Louis
-                  Missouri. He has been a Unity developer and graphic artist
-                  working in video game development since 2017. He's helping to
-                  create visuals for the next phases of Anthromancer.
-                </p>
-              </div>
-            </div>
-
-            {/* //Todo CALEN */}
-            <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
-              {/* //Todo IMAGE ON LEFT */}
-
-              <div className="w-64 lg:w-64 shadow-xl shadow-slate-400/20">
-                <img
-                  src="/anth4.svg"
-                  className="flex "
-                  alt="anthropos token svg"
-                />
-              </div>
-
-              {/* //Todo NAME AND TEXT ON RIGHT */}
-
-              <div className="w-11/12">
-                <p className="text-4xl  my-2 mb-4 decoration-th-accent-light underline">
-                  Calen Blake
-                </p>
-
-                <p className="text-2xl  mb-4 my-2">Visual Artist</p>
-
-                <p className="text-md px-2 leading-snug">
-                  Laborum aliquip ut dolor eiusmod cillum culpa magna sit enim
-                  est pariatur cillum. Reprehenderit excepteur do voluptate non
-                  culpa. Nostrud anim cillum aliquip ut cupidatat incididunt.
-                  Reprehenderit laboris pariatur laboris sunt sint minim magna
-                  est consectetur laboris. Non ex sit aliqua dolor consequat
-                  excepteur.
-                </p>
-              </div>
-            </div>
-
             {/* //Todo TERRENCE */}
             <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
               {/* //Todo IMAGE ON LEFT */}
 
-              <div className="w-64 lg:w-64 shadow-xl shadow-slate-400/20">
+              <div className="w-64 lg:w-64">
                 <img
-                  src="/anth4.svg"
-                  className="flex "
+                  src="/team/tsmoreau.jpg"
+                  className="flex rounded-full shadow-xl shadow-slate-400/20"
                   alt="anthropos token svg"
                 />
               </div>
@@ -322,7 +373,7 @@ export default function Team() {
                   Experiements, and more. He received training as an Illustrator
                   at the Academy of Art San Francsico and does illustration and
                   comics work in the NFT space and beyond. His original training
-                  was in physical building and design, and also builds and
+                  was in physical building and design, and now also builds and
                   consults on off-grid tiny homes.
                 </p>
               </div>
@@ -332,10 +383,10 @@ export default function Team() {
             <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
               {/* //Todo IMAGE ON LEFT */}
 
-              <div className="w-64 lg:w-64 shadow-xl shadow-slate-400/20">
+              <div className="w-64 lg:w-64">
                 <img
-                  src="/anth4.svg"
-                  className="flex "
+                  src="https://gateway.ipfs.io/ipfs/QmfGtzaLjwERtACmBzYcHgswRprD2wNjvMkDxm7ZA1sMFA"
+                  className="flex rounded-full shadow-xl shadow-slate-400/20"
                   alt="anthropos token svg"
                 />
               </div>
@@ -368,10 +419,10 @@ export default function Team() {
             <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
               {/* //Todo IMAGE ON LEFT */}
 
-              <div className="w-64 lg:w-64 shadow-xl shadow-slate-400/20">
+              <div className="w-64 lg:w-64">
                 <img
-                  src="/anth4.svg"
-                  className="flex "
+                  src="https://gateway.ipfs.io/ipfs/QmcAwTvH4aSfsyuVXHpd6aDrBahNH5biipZz3BXE9caeYq"
+                  className="flex rounded-full shadow-xl shadow-slate-400/20"
                   alt="anthropos token svg"
                 />
               </div>
@@ -397,14 +448,14 @@ export default function Team() {
               </div>
             </div>
 
-            {/* //Todo HANK */}
+            {/* //Todo  RICHARD */}
             <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
               {/* //Todo IMAGE ON LEFT */}
 
-              <div className="w-64 lg:w-64 shadow-xl shadow-slate-400/20">
+              <div className="w-64 lg:w-64">
                 <img
-                  src="/anth4.svg"
-                  className="flex "
+                  src="https://gateway.ipfs.io/ipfs/QmaLADSWjHiuHeKrwzeC82b4VY49CTxmSnbmB1uDk7cp35"
+                  className="flex rounded-full shadow-xl shadow-slate-400/20"
                   alt="anthropos token svg"
                 />
               </div>
@@ -413,35 +464,28 @@ export default function Team() {
 
               <div className="w-11/12">
                 <p className="text-4xl  my-2 mb-4 decoration-th-accent-light underline">
-                  Hank Gustafson
+                  Richard Darling
                 </p>
 
-                <p className="text-2xl  mb-4 my-2">
-                  Business Operations Manager
-                </p>
+                <p className="text-2xl  mb-4 my-2">3D Visuals/Video Designer</p>
 
-                <p className="text-md px-2 leading-tight">
-                  Hank has known Dan since 2013 and instantly recognized his
-                  creativity. When Dan approached him with the idea for
-                  Anthromancer, he was ecstatic to help develop it. He's managed
-                  several businesses over the years (currently running three)
-                  and enjoys connecting with people. He's knowledgeable on
-                  music, enjoys stand up comedy, hockey and building his nft
-                  collection. He also has a passion for building and renovating
-                  with his hands. A jack of all trades, trying his best to
-                  master all his interests.
+                <p className="text-md px-2 leading-snug">
+                  Richie is a visual artist and musician living in St. Louis
+                  Missouri. He has been a Unity developer and graphic artist
+                  working in video game development since 2017. He's helping to
+                  create visuals for the next phases of Anthromancer.
                 </p>
               </div>
             </div>
 
-            {/* //Todo DAN */}
+            {/* //Todo CALEN */}
             <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
               {/* //Todo IMAGE ON LEFT */}
 
-              <div className="w-64 lg:w-64 shadow-xl shadow-slate-400/20">
+              <div className="w-64 lg:w-64">
                 <img
-                  src="/anth4.svg"
-                  className="flex "
+                  src="https://gateway.ipfs.io/ipfs/QmQTSfTuaj1R8cNUcauvujaKkG5vsKAt3JNGMZKh6P1YsR"
+                  className="flex rounded-full shadow-xl shadow-slate-400/20"
                   alt="anthropos token svg"
                 />
               </div>
@@ -450,18 +494,20 @@ export default function Team() {
 
               <div className="w-11/12">
                 <p className="text-4xl  my-2 mb-4 decoration-th-accent-light underline">
-                  Daniel James Drake
+                  Calen Blake
                 </p>
 
-                <p className="text-2xl  mb-4 my-2">Frontman/Creator</p>
+                <p className="text-2xl  mb-4 my-2">Visual Artist</p>
 
                 <p className="text-md px-2 leading-snug">
-                  Dan is an artist/entertainer/spotlight hog from St. Louis with
-                  a penchant for old books and final fantasy. A gigantic
-                  buffoon, but intentionally. Known internationally as Dr. Dan
-                  the Pancake Man, the world's first professional pancake
-                  artist; doing everything in his power to be known for a lot
-                  more. Anthromancer is his fault.
+                  Combining a graphic/urban aesthetic with environmental and
+                  existential themes, Calen Blake intends to accelerate the
+                  connection of city life, and the natural world in the psyche
+                  of his viewers. Through his iconography, he symbolizes the
+                  subversive power of nature and the mind while incorporating a
+                  thematic grit and graphic imperfection reminiscent of the
+                  reality at hand. Blake’s mediums range from murals and street
+                  art to canvases and installations.
                 </p>
               </div>
             </div>

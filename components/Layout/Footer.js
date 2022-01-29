@@ -1,6 +1,6 @@
 export default function IndexPage() {
   return (
-    <div className="h-auto pb-0 pt-0 w-full justify-center bg-th-background/[.06] ">
+    <div className="h-auto pb-0 pt-0 w-full justify-center bg-th-background">
       <ul className="mr-4 font-futurapt font-thin lg:hidden text-th-primary-dark pt-4 text-base flex flex-row justify-center text-center mx-auto">
         <li className=" mx-1.5">
           <a href="/about" className="cursor-pointer">

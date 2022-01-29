@@ -1,10 +1,10 @@
 import { useWeb3React } from "@web3-react/core";
 import Head from "next/head";
 import Link from "next/link";
-import Account from "../components/Utils/Account";
-import Nav from "../components/Layout/Nav";
-import Footer from "../components/Layout/Footer";
-import useEagerConnect from "../hooks/useEagerConnect";
+import Account from "../../components/Utils/Account";
+import Nav from "../../components/Layout/Nav";
+import Footer from "../../components/Layout/Footer";
+import useEagerConnect from "../../hooks/useEagerConnect";
 
 export default function Home() {
   const { account, library } = useWeb3React();
@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="w-full h-full bg-th-background">
       <Head>
-        <title>Anthromancer - Vibe</title>
+        <title>Anthromancer - Blog</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Nav />
