@@ -173,11 +173,20 @@ export default function Team() {
 
         {/*  ABOUT SECTION  */}
 
-        <div className="w-11/12 lg:w-2/3 flex flex-col items-center py-8 mt-2 lg:mt-8">
+        <div className="w-11/12 md:w-9/12 lg:w-2/3 flex flex-col items-center py-8 mt-2 lg:mt-8">
           <div className="py-8 flex mx-auto text-left  justify-start w-full">
             <p className="text-th-primary-dark decoration-th-accent-light underline font-futurapt font-thin  text-6xl tracking-tight ">
               OUR MISSION
             </p>
+          </div>
+
+          <div className="w-11/12 md:w-10/12 lg:w-10/12 h-full flex mx-auto justify-center">
+            <div className="w-full h-full  ">
+              <img
+                className="rounded-xl w-full py-6 object-cover"
+                src="https://ipfs.infura.io/ipfs/Qme285nZx2aGZS3vJJb4tbA1EV4Xo8UknDma6xQj3aZhPD"
+              />
+            </div>
           </div>
 
           <div className="w-full text-md py-4 px-1 leading-snug text-left">
@@ -252,9 +261,8 @@ export default function Team() {
             {/* //! INSIDE GRID  */}
 
             {/* //Todo DAN */}
-            <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
+            <div className="relative m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
               {/* //Todo IMAGE ON LEFT */}
-
               <div className="w-64 lg:w-64">
                 <img
                   src="https://gateway.ipfs.io/ipfs/QmfFmttiDFfpGPFES7qUTQ1vPU1kSQN2Po9VgE4R2soXnh"
@@ -262,9 +270,7 @@ export default function Team() {
                   alt="anthropos token svg"
                 />
               </div>
-
               {/* //Todo NAME AND TEXT ON RIGHT */}
-
               <div className="w-11/12">
                 <p className="text-4xl  my-2 mb-4 decoration-th-accent-light underline">
                   Daniel James Drake
@@ -281,13 +287,16 @@ export default function Team() {
                   more. Anthromancer is his fault.
                 </p>
               </div>
+              <div className="absolute flex mx-auto justify-between  bottom-4">
+                Logo Logo Logo
+              </div>
             </div>
 
             {/* //Todo HANK */}
             <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
               {/* //Todo IMAGE ON LEFT */}
 
-              <div className="w-64 lg:w-64">
+              <div className="w-64  mb-1 lg:w-64">
                 <img
                   src="https://gateway.ipfs.io/ipfs/QmUH7eL1c8C5mPvwY3PhidtbrHhC7gQJwhsADLuHeVpASV"
                   className="flex rounded-full shadow-xl shadow-slate-400/20"

@@ -32,8 +32,8 @@ export default function Home() {
 
   function ShopMobile() {
     return (
-      <div className="relative mt-0 overflow-hidden w-full justify-center text-center py-2 px-2 mt-24 h-full my-6 shadow-xl shadow-slade-400/20">
-        <div className="w-full h-80  justify-center px-2">
+      <div className=" mt-0   w-full justify-center text-center py-2  mt-24 h-full my-6 shadow-xl shadow-slade-400/20">
+        <div className="w-full h-80  justify-center">
           <img
             src="/FishHero.jpg"
             className="h-full flex mx-auto object-cover  rounded-lg"
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
         <div className="ml-0 z-0 flex flex-col my-auto">
           <div className=" text-left ml-6 justify-end">
-            <p className="text-6xl font-thin mt-6 my-2 mb-4 decoration-th-accent-light underline">
+            <p className="text-5xl font-thin mt-6 my-2 mb-4 decoration-th-accent-light underline">
               Anthromancer
             </p>
             <p className="text-2xl font-thin   my-2">First Edition</p>
@@ -51,9 +51,9 @@ export default function Home() {
               Calen Blake
             </p>
           </div>
-          <div className="flex mx-auto ml-6 text-center justify-end">
+          <div className="flex mx-auto w-11/12 text-center justify-center  ">
             <a href="/tokens/anthropos">
-              <p className="border border-th-accent-light font-thin mt-8 mr-8 w-80 text-center  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
+              <p className="border border-th-accent-light font-thin mt-8   text-center  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
                 PREORDER NOW
               </p>
             </a>
@@ -65,31 +65,31 @@ export default function Home() {
 
   function ShopMain() {
     return (
-      <div className=" w-screen border bg-th-background shadow-xl shadow-slate-400/20 mt-2 font-futurapt text-center justify-center flex mx-auto">
-        <div className="overflow-hidden relative  h-136 w-full text-right  pb-4 flex  rounded-lg">
+      <div className=" w-screen  bg-th-background shadow-xl shadow-slate-400/20 mt-2 font-futurapt text-center justify-center flex mx-auto">
+        <div className="overflow-hidden relative  h-144 items-end w-full text-right  pb-4 flex  rounded-lg">
           <img
-            src="/HeroShotDeux.jpg"
-            className="object-cover w-full h-136 object-center rounded-lg shadow-xl shadow-slate-400/20 "
+            src="https://ipfs.infura.io/ipfs/QmTJxfi1amSbw8JvPQexH7sUQtxViteNQqpi3Pm2cfv9DC"
+            className="object-cover w-full h-156 object-bottom -mb-20 rounded-lg shadow-xl shadow-slate-400/20 "
           />
-          <div className="font-thin text-white absolute bottom-20 left-12 text-left  justify-end">
+          <div className="font-thin text-white absolute inset-y-0 items-center text-center flex my-auto right-32 text-right  justify-end">
+            <p className="drop-shadow-xl font-thin  text-xl leading-tight  mt-2 ">
+              The Ground-Breaking Original Board Game
+              <br /> From the mind of Daniel James Drake and
+              <br />
+              Expressed through the Visual Language of
+              <br /> Sean Calen Blake
+            </p>
+          </div>
+          <div className="font-thin text-white absolute flex flex-col mx-auto items-start justify-center left-32  inset-y-0  text-left ">
             <p className="drop-shadow-xl text-6xl   my-2 mb-4 decoration-th-accent-light underline">
               Anthromancer
             </p>
-            <p className=" text-2xl font-thin   my-2">First Edition</p>
-            <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug  mt-2 ">
-              The Ground-Breaking Original Board Game
-            </p>
-            <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug -mt-1  ">
-              From the mind of Daniel James Drake and
-            </p>
-            <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug mb-2 -mt-1 ">
-              Expressed through the Visual Language of Sean Calen Blake
-            </p>
-          </div>
-          <div className="font-thin absolute bottom-6 text-center left-12  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium shadow-xl shadow-slate-400/20-th-accent-light hover:bg-th-accent-light hover:shadow-xl shadow-slate-400/20-th-primary-medium cursor-pointer ">
-            <a href="https://anthromancy.backerkit.com/hosted_preorders">
-              PREORDER NOW
-            </a>
+            <p className=" text-3xl font-thin   mb-2">First Edition</p>
+            <div className="font-thin text-center mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium shadow-xl shadow-slate-400/20-th-accent-light hover:bg-th-accent-light hover:shadow-xl shadow-slate-400/20-th-primary-medium cursor-pointer ">
+              <a href="https://anthromancy.backerkit.com/hosted_preorders">
+                PREORDER NOW
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -262,7 +262,7 @@ export default function Home() {
             Yggdrasil
           </p>
           <p className="font-thin text-2xl text-right font-futurapt leading-tight   w-11/12  mt-2 ">
-            300/777 Minted
+            777/777 Minted
           </p>
 
           <p className="font-thin text-xl text-right font-futurapt leading-none   w-11/12  mt-2 ">
@@ -274,10 +274,10 @@ export default function Home() {
             Class Card in Anthromancer's Upcoming On-Chain Card Game.
           </p>
 
-          <a href="/tokens/hymns">
+          <a href="/tokens/yggdrasil">
             <div className=" w-11/12 flex justify-end ">
               <p className="border border-th-accent-light w-80 font-thin mt-8  text-center   font-futurapt text-xl text-white px-4 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
-                AVAILABLE TO MINT 3/17/22
+                AVAILABLE TO CLAIM NOW
               </p>
             </div>
           </a>
@@ -312,21 +312,13 @@ export default function Home() {
               Card in Anthromancer's Upcoming On-Chain Card Game.
             </div>
           </div>
-          <div className="flex mx-auto ml-6 text-center justify-end">
+          <div className="flex w-11/12 mx-auto text-center justify-end">
             <a href="/tokens/anthropos">
-              <p className="border border-th-accent-light font-thin mt-8 mr-8 w-80 text-center  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
+              <p className="border border-th-accent-light font-thin mt-8 px-8 text-center  mr-1 font-futurapt text-xl text-white  py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
                 AVAILABLE TO MINT 2/14/22
               </p>
             </a>
           </div>
-
-          <a href="/tokens/hymns">
-            <div className=" w-11/12 flex justify-end ">
-              <p className="border border-th-accent-light w-80 font-thin mt-8  text-center   font-futurapt text-xl text-white px-4 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
-                AVAILABLE TO MINT 3/17/22
-              </p>
-            </div>
-          </a>
         </div>
       </div>
     );
@@ -421,19 +413,19 @@ export default function Home() {
         <Nav />
       </div>
       <div className="h-8 lg:h-24 w-full bg-lime-300 invisible">Spacer</div>
-      <main className="lg:mt-8 flex flex-col mx-auto items-center bg-th-background font-futurapt mb-10 text-center justify-center">
+      <main className="lg:mt-8  w-screen flex flex-col mx-auto items-center bg-th-background font-futurapt mb-10 text-center justify-center">
         {/* Shop Title Section */}
-        <div id="shop" className="lg:w-2/3 w-11/12 py-8 text-left">
+        <div id="shop" className=" w-11/12 xl:w-10/12 py-8 text-left">
           <p className="font-futurapt text-th-primary-dark lg:mt-16 decoration-th-accent-light underline  font-thin text-7xl ">
             SHOP
           </p>
         </div>
 
         {/* Shop Section */}
-        <div className=" lg:w-2/3 w-11/12 hidden lg:flex w-screen">
+        <div className="hidden lg:flex w-screen">
           <ShopMain />
         </div>
-        <div className="lg:w-2/3 w-11/12 lg:hidden w-full">
+        <div className="lg:w-2/3 w-11/12 lg:hidden ">
           <ShopMobile />
         </div>
         {/* Tokens Section */}

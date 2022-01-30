@@ -41,7 +41,7 @@ function Flair() {
       <div className="w-screen flex mx-auto justify-center">
         <div className="w-full px-2 lg:w-10/12">
           <p className="relative flex mx-auto text-center justify-center">
-            <p className="absolute top-2 lg:top-4 text-2xl lg:text-8xl font-futurapt tracking-tight font-thin text-center text-th-primary-dark">
+            <p className="absolute top-2 lg:top-4 text-2xl md:text-5xl lg:text-8xl font-futurapt tracking-tight font-thin text-center text-th-primary-dark">
               <a target="_blank" href="/path#roadmap">
                 THE ROAD MAP
               </a>
@@ -457,13 +457,13 @@ function MobileSlider1() {
             </svg>
           </div>
 
-          <p className="font-futurapt font-thin text-4xl  my-2 mb-5 decoration-th-accent-light ">
+          <p className="font-futurapt font-thin text-4xl sm:text-5xl md:text-6xl  my-2 mb-5 decoration-th-accent-light ">
             A Human Experience
           </p>
         </div>
       </div>
 
-      <div className="w-full justify-center px-2">
+      <div className="w-full sm:px-12 md:px-24 justify-center px-2">
         <img
           src="/FishHero.jpg"
           className=" flex mx-auto object-cover  rounded-full border border-2 border-th-accent-light"
@@ -508,7 +508,7 @@ function MobileSlider2() {
               width="28"
               height="28"
               viewBox="0 0 17.86 17.86"
-              className="fill-th-accent-light "
+              className="fill-th-accent-light mt-2"
             >
               <g id="Layer_2" data-name="Layer 2">
                 <g id="Layer_1-2" data-name="Layer 1">
@@ -516,17 +516,14 @@ function MobileSlider2() {
                 </g>
               </g>
             </svg>
-            <p className="font-futurapt text-center object-fill w-full  font-thin text-4xl   mb-6 decoration-th-accent-light ">
+            <p className="font-futurapt font-thin text-4xl sm:text-5xl md:text-6xl  my-2 mb-5 decoration-th-accent-light ">
               A Future Focused Outlook
             </p>
           </div>
         </div>
       </div>
-      <p className="hidden font-futurapt font-thin text-3xl  my-0 mb-5 decoration-th-accent-light ">
-        Outlook
-      </p>
 
-      <div className="w-full justify-center px-2">
+      <div className="w-full sm:px-12 md:px-24 justify-center px-2">
         <img
           src="/DiceBoy.jpg"
           className=" flex mx-auto object-cover  rounded-full border border-2 border-th-accent-light"
@@ -776,14 +773,14 @@ export default function Home() {
       <div className="px-24 hidden lg:flex flex-col mx-auto ">
         <Roadmap />
       </div>
-      <div className="my-12  px-10 lg:px-64 lg:max-w-8xl h-56 w-full bg-th-background flex mx-auto justify-between">
-        <div className="border border-th-primary-dark border-2 rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light">
+      <div className="my-12  px-4 md:px-36 lg:px-64 md:max-w-7xl lg:max-w-8xl h-36 lg:h-56 w-full bg-th-background flex mx-auto justify-between">
+        <div className="border border-th-primary-dark border-2 rounded-full w-24 h-24 lg:w-40 lg:h-40">
           <img src="/Asset+43.png" />
         </div>
-        <div className="border border-th-primary-dark rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light">
+        <div className="rounded-full w-24 h-24 lg:w-40 lg:h-40 ">
           <img src="/Asset+41.png" className="rounded-full" />
         </div>
-        <div className="border border-th-primary-dark rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light">
+        <div className="border border-th-primary-dark rounded-full w-24 h-24 lg:w-40 lg:h-40">
           <img src="/Asset+42.png" className="rounded-full" />
         </div>
       </div>

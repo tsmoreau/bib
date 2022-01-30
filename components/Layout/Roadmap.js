@@ -1343,6 +1343,7 @@ export default function Roadmap() {
                           strokeMiterlimit="10"
                           strokeWidth="8"
                           d="M1555.14 2153.08a18.79 18.79 0 110 27.92"
+                          className="fill-th-background"
                         ></path>
                         <path
                           fill="none"
@@ -1373,6 +1374,7 @@ export default function Roadmap() {
                         strokeMiterlimit="10"
                         strokeWidth="8"
                         d="M334.24 2153.08a18.79 18.79 0 100 27.92"
+                        className="fill-th-background"
                       ></path>
                       <path
                         fill="none"

@@ -8,7 +8,10 @@ export default function IndexPage() {
           </a>
         </li>
         <li className="flex flex-row mx-1.5">
-          <a href="/team" className="cursor-pointer w-5 h-5 mr-4">
+          <a
+            href="https://discord.gg/8WxGtXQ4H3"
+            className="cursor-pointer w-5 h-5 mr-4"
+          >
             <svg
               width="30"
               height="20"
@@ -29,7 +32,10 @@ export default function IndexPage() {
               </defs>
             </svg>
           </a>
-          <a href="/team" className="cursor-pointer w-6 h-6">
+          <a
+            href="https://twitter.com/anthromancy"
+            className="cursor-pointer w-6 h-6"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="248"
@@ -71,7 +77,10 @@ export default function IndexPage() {
             <div className="px-8">Email Updates | Contact Us</div>
             <div className="flex ">
               {" "}
-              <a href="/team" className="cursor-pointer w-5 h-5 mr-4">
+              <a
+                href="https://discord.gg/8WxGtXQ4H3"
+                className="cursor-pointer w-5 h-5 mr-4"
+              >
                 <svg
                   width="30"
                   height="20"
@@ -92,7 +101,10 @@ export default function IndexPage() {
                   </defs>
                 </svg>
               </a>
-              <a href="/team" className="cursor-pointer w-6 h-6">
+              <a
+                href="https://twitter.com/anthromancy"
+                className="cursor-pointer w-6 h-6"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="248"
