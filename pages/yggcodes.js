@@ -4,6 +4,7 @@ import Nav from "../components/Layout/Nav";
 import moment from "moment";
 
 import { emails } from "../components/Samples/testEmails";
+import { backeremails } from "../components/Samples/yggEmails";
 import { v4 as uuidv4 } from "uuid";
 
 let date = moment(Date.now()).format("LLLL");
@@ -32,6 +33,34 @@ export default function AddPost() {
         code: uuidv4(),
         redeemed: false,
         email: emails[i].email,
+        redeemedBy: "N/A",
+        redeemedAt: "N/A",
+        redeemedTx: "N/A",
+        createdAt: date
+      };
+      console.log(codeData);
+      // save the post
+      let response = await fetch("/api/yggCodesUpload", {
+        method: "POST",
+        body: JSON.stringify(codeData)
+      });
+    }
+  };
+
+  const automatedUpload2 = async () => {
+    console.log("Beginning Upload of Email/Code Pairs to DB...");
+    // reset error and message
+    setError("");
+    setMessage("");
+
+    for (let i = 0; i < backeremails.length; i++) {
+      console.log("Uploading Backer Info", { i });
+
+      // post structure
+      let codeData = {
+        code: uuidv4(),
+        redeemed: false,
+        email: backeremails[i].email,
         redeemedBy: "N/A",
         redeemedAt: "N/A",
         redeemedTx: "N/A",
@@ -154,7 +183,7 @@ export default function AddPost() {
     if (data.success) {
       // reset the fields and log the data
       console.log(data.message);
-      setContentFromDb2(data.message);
+      setContentFromDb(data.message);
     } else {
       // set the error
       return setError(data.message);
@@ -190,18 +219,24 @@ export default function AddPost() {
 
   useEffect(() => {
     getOnePost();
-    getOnePost2();
   }, []);
 
   return (
     <div className="w-full">
       <Nav />
+      <div className="w-full h-24 invisible"></div>
       <div className="flex justify-center  mx-auto text-center">
         <button
           onClick={automatedUpload}
-          className="px-3 py-0.5 border rounded-lg"
+          className="px-3 py-0.5 border h-16 rounded-lg"
         >
           TEST UPLOAD
+        </button>
+        <button
+          onClick={automatedUpload2}
+          className="px-3 py-0.5 border h-16 rounded-lg"
+        >
+          REAL UPLOAD
         </button>
         <svgParts />
         <form onSubmit={handlePost}>

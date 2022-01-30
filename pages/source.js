@@ -65,7 +65,7 @@ export default function Home() {
 
   function ShopMain() {
     return (
-      <div className=" w-full bg-th-background shadow-xl shadow-slate-400/20 mt-2 font-futurapt text-center justify-center flex mx-auto">
+      <div className=" w-screen border bg-th-background shadow-xl shadow-slate-400/20 mt-2 font-futurapt text-center justify-center flex mx-auto">
         <div className="overflow-hidden relative  h-136 w-full text-right  pb-4 flex  rounded-lg">
           <img
             src="/HeroShotDeux.jpg"
@@ -269,17 +269,18 @@ export default function Home() {
             Reward Token for Original Anthromancer
             <br /> Board Game Kickstarter Backers
           </p>
-          <p className="font-medium text-base text-right font-futurapt leading-none   w-11/12  mt-2 mb-16">
+          <p className="font-medium text-base text-right font-futurapt leading-none   w-11/12  mt-2 ">
             Offers a Discount on Anthromancer Hymn Tokens and a Free Random
             Class Card in Anthromancer's Upcoming On-Chain Card Game.
           </p>
-          <div className="flex mx-auto absolute bottom-0 right-0 justify-end">
-            <a href="/tokens/yggdrasil">
-              <p className="border border-th-accent-light font-thin mt-8 mr-10 w-80 text-center  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
-                AVAILABLE TO CLAIM NOW
+
+          <a href="/tokens/hymns">
+            <div className=" w-11/12 flex justify-end ">
+              <p className="border border-th-accent-light w-80 font-thin mt-8  text-center   font-futurapt text-xl text-white px-4 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
+                AVAILABLE TO MINT 3/17/22
               </p>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
     );
@@ -291,7 +292,7 @@ export default function Home() {
         <div className="w-full justify-center px-2">
           <img
             src="/anth4.svg"
-            className=" flex mx-auto object-cover  rounded-lg"
+            className=" flex mx-auto object-cover w-10/12 rounded-lg"
           />
         </div>
         <div className="ml-0 z-0 flex flex-col my-auto">
@@ -318,6 +319,14 @@ export default function Home() {
               </p>
             </a>
           </div>
+
+          <a href="/tokens/hymns">
+            <div className=" w-11/12 flex justify-end ">
+              <p className="border border-th-accent-light w-80 font-thin mt-8  text-center   font-futurapt text-xl text-white px-4 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
+                AVAILABLE TO MINT 3/17/22
+              </p>
+            </div>
+          </a>
         </div>
       </div>
     );
@@ -329,46 +338,46 @@ export default function Home() {
         <div className="w-full justify-center px-2">
           <div className="h-auto flex mx-auto object-cover  rounded-lg">
             <div class="w-full h-auto my-12 flex gap-6 shrink-0 snap-x overflow-x-auto">
-              <div class="snap-center shrink-0 w-full">
+              <div class="snap-center shrink-0 w-full flex mx-auto justify-center">
                 <img
-                  class="bg-white  w-96 h-96 rounded-lg"
+                  class="bg-white  w-116  rounded-lg"
                   src="https://ipfs.infura.io/ipfs/QmQwkQ1ebS7uw9K9KNNbsN1AH2C55Fy8CALiWPopEgautD"
                 />
               </div>
-              <div class="snap-center shrink-0 w-full">
+              <div class="snap-center shrink-0 w-full flex mx-auto justify-center">
                 <img
-                  class="bg-white w-96 h-96 rounded-lg"
+                  class="bg-white w-116  rounded-lg"
                   src="https://ipfs.infura.io/ipfs/QmR5TghpydnL4La5a4RRKe1i9UXCmF3XBg2tAYC4R6ghri"
                 />
               </div>
-              <div class="snap-center shrink-0 w-full">
+              <div class="snap-center shrink-0 w-full flex mx-auto justify-center">
                 <img
-                  class="bg-white  w-96 px-2 rounded-lg"
+                  class="bg-white  w-116 px-2 rounded-lg"
                   src="https://ipfs.infura.io/ipfs/QmeZZDQf4nWHXeD3MwEBeRAgyHQSEQrF5uLHAhpweFDefL"
                 />
               </div>
-              <div class="snap-center shrink-0 w-full">
+              <div class="snap-center shrink-0 w-full flex mx-auto justify-center">
                 <img
-                  class="bg-white w-96 px-16 py-4 rounded-lg"
+                  class="bg-white w-116 px-16 py-4 rounded-lg"
                   src="https://ipfs.infura.io/ipfs/QmWJRHsHFUYzsGMKqU2KjFtjTNoAQcq2AagDJrqbrXhgsr"
                 />
               </div>
-              <div class="snap-center shrink-0  w-full">
+              <div class="snap-center shrink-0 w-full flex mx-auto justify-center">
                 <img
-                  class="bg-white  w-96 px-6 py-4 rounded-lg"
+                  class="bg-white  w-116 px-6 py-4 rounded-lg"
                   src="https://ipfs.infura.io/ipfs/QmbJqpEGkycjFvogpditwMP8dN827LDc5HJ68d7fhdMuAV"
                 />
               </div>
-              <div class="snap-center shrink-0  w-full">
+              <div class="snap-center shrink-0 w-full flex mx-auto justify-center">
                 <img
-                  class="bg-white w-96 px-12 py-1 rounded-lg"
+                  class="bg-white w-116 px-12 py-1 rounded-lg"
                   src="https://ipfs.infura.io/ipfs/QmZMRz7NgKN3ZUauo3vPKQgjk3FnHMw6v5V2Xzo56CqKDJ"
                 />
               </div>
             </div>
           </div>
         </div>
-        <div className="z-50 lg:w-7/12 text-right -mt-2 pl-4">
+        <div className="z-50 lg:w-7/12 text-right justify-end -mt-2 pl-4">
           <p className="font-thin text-6xl text-right font-futurapt decoration-th-accent-light underline leading-tight   w-11/12  mt-0 ">
             Hymns
           </p>
@@ -380,14 +389,14 @@ export default function Home() {
             Primary Token of the Anthromancer Ecosystem. 13 Total Variants, with
             Differing Rewards
           </p>
-          <p className="font-medium text-base text-right font-futurapt leading-none mb-12  w-11/12  mt-2 ">
+          <p className="font-medium text-base text-right font-futurapt leading-none w-11/12  mt-2 ">
             Offers a Free Class Card Specific to the Hymn Variant in
             Anthromancer's Upcoming On-Chain Card Game, as well as Future
             Rewards
           </p>
           <a href="/tokens/hymns">
-            <div className="flex mx-auto w-full absolute bottom-0 right-0  justify-end ">
-              <p className="border border-th-accent-light font-thin mt-8 mr-10 w-80 text-center  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
+            <div className=" w-11/12 flex justify-end ">
+              <p className="border border-th-accent-light w-80 font-thin mt-8  text-center   font-futurapt text-xl text-white px-4 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
                 AVAILABLE TO MINT 3/17/22
               </p>
             </div>
@@ -412,25 +421,25 @@ export default function Home() {
         <Nav />
       </div>
       <div className="h-8 lg:h-24 w-full bg-lime-300 invisible">Spacer</div>
-      <main className="lg:mt-8 flex flex-col mx-auto lg:w-2/3 w-11/12 bg-th-background font-futurapt mb-10 text-center justify-center">
+      <main className="lg:mt-8 flex flex-col mx-auto items-center bg-th-background font-futurapt mb-10 text-center justify-center">
         {/* Shop Title Section */}
-        <div id="shop" className="py-8 text-left">
+        <div id="shop" className="lg:w-2/3 w-11/12 py-8 text-left">
           <p className="font-futurapt text-th-primary-dark lg:mt-16 decoration-th-accent-light underline  font-thin text-7xl ">
             SHOP
           </p>
         </div>
 
         {/* Shop Section */}
-        <div className="hidden lg:flex w-full">
+        <div className=" lg:w-2/3 w-11/12 hidden lg:flex w-screen">
           <ShopMain />
         </div>
-        <div className="lg:hidden w-full">
+        <div className="lg:w-2/3 w-11/12 lg:hidden w-full">
           <ShopMobile />
         </div>
         {/* Tokens Section */}
         <div
           id="tokens"
-          className="bg-th-background w-full mt-2 lg:mt-36 font-futurapt text-center justify-center"
+          className="lg:w-2/3 w-11/12 bg-th-background w-full mt-2 lg:mt-36 font-futurapt text-center justify-center"
         >
           <div className="py-8 text-left">
             <p className=" font-futurapt text-th-primary-dark mt-16 decoration-th-accent-light underline font-thin text-7xl ">

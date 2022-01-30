@@ -43,7 +43,7 @@ export default function Home() {
               className="rounded-lg flex mx-auto"
             >
               <source
-                src="https://gateway.ipfs.io/ipfs/QmVwJGSZmsBzsseFEx3RtCnGL8q5d1DXZQxUkDt7aCjEpd"
+                src="https://ipfs.infura.io/ipfs/QmVwJGSZmsBzsseFEx3RtCnGL8q5d1DXZQxUkDt7aCjEpd"
                 type="video/mp4"
               />
             </video>

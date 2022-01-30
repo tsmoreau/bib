@@ -776,7 +776,7 @@ export default function Home() {
       <div className="px-24 hidden lg:flex flex-col mx-auto ">
         <Roadmap />
       </div>
-      <div className="mt-12  px-10 pb-8 lg:px-64 lg:max-w-8xl h-56 w-full bg-th-background flex mx-auto justify-between">
+      <div className="my-12  px-10 lg:px-64 lg:max-w-8xl h-56 w-full bg-th-background flex mx-auto justify-between">
         <div className="border border-th-primary-dark border-2 rounded-full w-24 h-24 lg:w-40 lg:h-40 bg-th-accent-light">
           <img src="/Asset+43.png" />
         </div>
