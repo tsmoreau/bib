@@ -287,7 +287,7 @@ export default function Team() {
                   more. Anthromancer is his fault.
                 </p>
               </div>
-              <div className="absolute flex mx-auto justify-between  bottom-4">
+              <div className="hidden absolute flex mx-auto justify-between  bottom-4">
                 Logo Logo Logo
               </div>
             </div>
