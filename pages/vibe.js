@@ -32,10 +32,10 @@ export default function Home() {
         </div>
 
         {/* Main Post Area */}
-        <div className="mt-12 w-full justify-start text-left">
+        <div className="mt-16 w-full justify-start text-left">
           <p className="text-5xl">Yggdrasil Reward Token Drop</p>
-          <p className="text-xl mt-2">
-            Published On | JANUARY 30th 2022 | Daniel James Drake
+          <p className="text-base lg:text-lg py-2 mt-2">
+            JANUARY 30th 2022 | By Daniel James Drake
           </p>
 
           <div className="flex mx-auto justify-start mt-2">
@@ -46,7 +46,7 @@ export default function Home() {
             </p>
           </div>
           <div className="bg-th-accent-light h-1 w-full "></div>
-          <div className="w-8/12 flex mx-auto rounded-lg mt-4 justify-center">
+          <div className="w-11/12 lg:w-8/12 flex mx-auto rounded-lg mt-4 justify-center">
             <video
               width="520"
               height="240"

@@ -173,18 +173,20 @@ export default function Team() {
 
         {/*  ABOUT SECTION  */}
 
-        <div className="w-2/3 flex flex-col items-center py-8 mt-8">
+        <div className="w-11/12 lg:w-2/3 flex flex-col items-center py-8 mt-2 lg:mt-8">
           <div className="py-8 flex mx-auto text-left  justify-start w-full">
             <p className="text-th-primary-dark decoration-th-accent-light underline font-futurapt font-thin  text-6xl tracking-tight ">
               OUR MISSION
             </p>
           </div>
 
-          <div className="w-full text-md py-4 px-1">
-            A Game. An Oracle. An Album. A Myth…
+          <div className="w-full text-md py-4 px-1 leading-snug text-left">
+            <p className="italic w-full text-center">
+              A Game. An Oracle. An Album. A Myth…
+            </p>
             <br />
             <br />
-            ...A Mission?
+            <p className="italic w-full text-center">...A Mission?</p>
             <br />
             <br />
             Anthromancer is a tabletop entertainment system – you know, a board
@@ -193,7 +195,9 @@ export default function Team() {
             your average crowdfunded box of plastic bits.
             <br />
             <br />
-            We seek to change the human understanding of Power.
+            <p className="italic w-full text-center">
+              We seek to change the human understanding of Power.
+            </p>
             <br />
             <br />
             This mission is expressed through the symbolic dichotomy between The
@@ -210,7 +214,9 @@ export default function Team() {
             us there.
             <br />
             <br />
-            (It all sounds a bit cult-y, but what doesn’t these days?)
+            <p className="italic w-full text-center">
+              (It all sounds a bit cult-y, but what doesn’t these days?)
+            </p>
             <br />
             <br />
             Our flagship product – that tabletop experience we call Anthromancer
@@ -226,16 +232,18 @@ export default function Team() {
             same strength to you.
             <br />
             <br />
-            Be Moved.
+            <p className="italic w-full text-center">
+              Welcome to the Enlightment Machine.
+            </p>
           </div>
           <img src="/favicon.png" className="w-16" />
         </div>
 
         {/*  TEAM SECTION  */}
 
-        <div className="  flex flex-col items-center w-2/3  h-full font-futurapt font-thin text-center justify-center">
+        <div className="  flex flex-col items-center w-11/12 lg:w-2/3  h-full font-futurapt font-thin text-center justify-center">
           <div className="py-8 mb-8  flex mx-auto text-left  justify-start w-full">
-            <p className="text-th-primary-dark decoration-th-accent-light underline font-futurapt font-thin  text-6xl tracking-tight ">
+            <p className="w-full text-left text-th-primary-dark decoration-th-accent-light underline font-futurapt font-thin  text-6xl tracking-tight ">
               THE TEAM
             </p>
           </div>
@@ -264,7 +272,7 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">Frontman/Creator</p>
 
-                <p className="text-md px-2 leading-snug">
+                <p className="text-lg lg:text-base px-2 leading-snug">
                   Dan is an artist/entertainer/spotlight hog from St. Louis with
                   a penchant for old books and final fantasy. A gigantic
                   buffoon, but intentionally. Known internationally as Dr. Dan
@@ -298,7 +306,7 @@ export default function Team() {
                   Business Operations Manager
                 </p>
 
-                <p className="text-md px-2 leading-tight">
+                <p className="text-lg lg:text-base px-2 leading-tight">
                   Hank has known Dan since 2013 and instantly recognized his
                   creativity. When Dan approached him with the idea for
                   Anthromancer, he was ecstatic to help develop it. He's managed
@@ -335,7 +343,7 @@ export default function Team() {
                   Community Manager & Mercenarium Judge{" "}
                 </p>
 
-                <p className="text-md px-2 leading-snug">
+                <p className="text-lg lg:text-base px-2 leading-snug">
                   Alex loves film, games, learning about anything, and most of
                   all music and singing. He's an avid Magic the Gathering player
                   and devotes himself to it in his free time working on the
@@ -366,7 +374,7 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">Technical Lead</p>
 
-                <p className="text-md px-2 leading-tight">
+                <p className="text-lg lg:text-base px-2 leading-tight">
                   Terrence makes things. He has been programming in Solidity
                   since 2019, has written smart contracts for NFT Market
                   Platforms, Fully-On-Chain Art Projects, Generative Art
@@ -400,7 +408,7 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">Graphic Designer</p>
 
-                <p className="text-md px-2 leading-tight">
+                <p className="text-lg lg:text-base px-2 leading-tight">
                   Wella is a multitalented visual artist whose works includes
                   conceptual, digital, commercial, and fine art across a variety
                   of mediums. As a big fan of the weird and mystical, they
@@ -419,10 +427,10 @@ export default function Team() {
             <div className=" m-4 py-4 flex flex-col items-center mx-auto shadow-xl shadow-slate-400/20 rounded-xl h-full">
               {/* //Todo IMAGE ON LEFT */}
 
-              <div className="w-64 lg:w-64">
+              <div className="w-64 lg:w-64 h-64">
                 <img
                   src="https://gateway.ipfs.io/ipfs/QmcAwTvH4aSfsyuVXHpd6aDrBahNH5biipZz3BXE9caeYq"
-                  className="flex rounded-full shadow-xl shadow-slate-400/20"
+                  className="w-64 object-cover h-64 flex rounded-full shadow-xl shadow-slate-400/20"
                   alt="anthropos token svg"
                 />
               </div>
@@ -436,7 +444,7 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">Web Developer/Musician</p>
 
-                <p className="text-md px-2 leading-tight">
+                <p className="text-lg lg:text-base px-2 leading-tight">
                   Jacob is one of our web devs and UI designers for
                   Anthromancer, and excitedly looks forward to contributing
                   music and art as well in our future projects. He works as a
@@ -469,7 +477,7 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">3D Visuals/Video Designer</p>
 
-                <p className="text-md px-2 leading-snug">
+                <p className="text-lg lg:text-base px-2 leading-snug">
                   Richie is a visual artist and musician living in St. Louis
                   Missouri. He has been a Unity developer and graphic artist
                   working in video game development since 2017. He's helping to
@@ -499,7 +507,7 @@ export default function Team() {
 
                 <p className="text-2xl  mb-4 my-2">Visual Artist</p>
 
-                <p className="text-md px-2 leading-snug">
+                <p className="text-lg lg:text-base px-2 leading-snug">
                   Combining a graphic/urban aesthetic with environmental and
                   existential themes, Calen Blake intends to accelerate the
                   connection of city life, and the natural world in the psyche
@@ -524,13 +532,13 @@ export default function Team() {
               The Anthromancer Roadmap
             </p>
           </div>
-          <div className="w-full  mt-12">
+          <div className=" hidden lg:flex flex-col mx-auto mt-12 w-full">
             <Flair />
           </div>
-          <div className="w-full text-md py-8 px-0 -mx-12 z-0">
-            <Roadmap />
-          </div>
         </div>
+      </div>
+      <div className="px-24 hidden lg:flex flex-col mx-auto ">
+        <Roadmap />
       </div>
       <div className="mt-4">
         <Footer />

@@ -30,6 +30,72 @@ export default function Home() {
     );
   }
 
+  function ShopMobile() {
+    return (
+      <div className="relative mt-0 overflow-hidden w-full justify-center text-center py-2 px-2 mt-24 h-full my-6 shadow-xl shadow-slade-400/20">
+        <div className="w-full h-80  justify-center px-2">
+          <img
+            src="/FishHero.jpg"
+            className="h-full flex mx-auto object-cover  rounded-lg"
+          />
+        </div>
+        <div className="ml-0 z-0 flex flex-col my-auto">
+          <div className=" text-left ml-6 justify-end">
+            <p className="text-6xl font-thin mt-6 my-2 mb-4 decoration-th-accent-light underline">
+              Anthromancer
+            </p>
+            <p className="text-2xl font-thin   my-2">First Edition</p>
+            <p className="text-xl font-thin leading-none    text-xl  mt-2 pr-2">
+              The Ground-Breaking Original Board Game From the mind of Daniel
+              James Drake and Eepressed through the Visual Language of Sean
+              Calen Blake
+            </p>
+          </div>
+          <div className="flex mx-auto ml-6 text-center justify-end">
+            <a href="/tokens/anthropos">
+              <p className="border border-th-accent-light font-thin mt-8 mr-8 w-80 text-center  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium hover:bg-th-accent-light hover:shadow-xl  cursor-pointer ">
+                PREORDER NOW
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  function ShopMain() {
+    return (
+      <div className=" w-full bg-th-background shadow-xl shadow-slate-400/20 mt-2 font-futurapt text-center justify-center flex mx-auto">
+        <div className="overflow-hidden relative  h-136 w-full text-right  pb-4 flex  rounded-lg">
+          <img
+            src="/HeroShotDeux.jpg"
+            className="object-cover w-full h-136 object-center rounded-lg shadow-xl shadow-slate-400/20 "
+          />
+          <div className="font-thin text-white absolute bottom-20 left-12 text-left  justify-end">
+            <p className="drop-shadow-xl text-6xl   my-2 mb-4 decoration-th-accent-light underline">
+              Anthromancer
+            </p>
+            <p className=" text-2xl font-thin   my-2">First Edition</p>
+            <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug  mt-2 ">
+              The Ground-Breaking Original Board Game
+            </p>
+            <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug -mt-1  ">
+              From the mind of Daniel James Drake and
+            </p>
+            <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug mb-2 -mt-1 ">
+              Expressed through the Visual Language of Sean Calen Blake
+            </p>
+          </div>
+          <div className="font-thin absolute bottom-6 text-center left-12  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium shadow-xl shadow-slate-400/20-th-accent-light hover:bg-th-accent-light hover:shadow-xl shadow-slate-400/20-th-primary-medium cursor-pointer ">
+            <a href="https://anthromancy.backerkit.com/hosted_preorders">
+              PREORDER NOW
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   function YggMain() {
     return (
       <div className="flex mx-auto px-4 py-2 w-full mt-6 ">
@@ -73,7 +139,7 @@ export default function Home() {
 
   function AnthMain() {
     return (
-      <div className="flex mx-auto py-4 ">
+      <div className="flex mx-auto w-full py-4 ">
         <div className="relative max-w-7x shadow-xl shadow-slate-400/20 h-128 l w-full text-left  pb-4 flex mx-auto shadow-xl shadow-slate-400/20 rounded-lg">
           <div className="z-50 h-full w-full lg:w-5/12 flex justify-center items-center h-auto z-0 absolute inset-y-0 right-12 rounded-lg">
             <img
@@ -113,7 +179,7 @@ export default function Home() {
 
   function HymnsMain() {
     return (
-      <div className="flex mx-auto  py-4 ">
+      <div className="flex mx-auto w-full py-4 ">
         <div className="relative max-w-7x shadow-xl shadow-slate-400/20 h-128 l w-full text-right  pb-4 flex mx-auto shadow-xl shadow-slate-400/20 rounded-lg">
           <div class="w-5/12 my-12 flex gap-6 shrink-0 snap-x overflow-x-auto absolute inset-y-0 left-12">
             <div class="snap-center shrink-0 w-full">
@@ -191,7 +257,7 @@ export default function Home() {
             className=" flex mx-auto object-cover  rounded-lg"
           />
         </div>
-        <div className="z-50 lg:w-7/12 text-right ">
+        <div className="z-50  text-right pl-4">
           <p className="font-thin text-6xl text-right font-futurapt decoration-th-accent-light underline leading-tight   w-11/12  mt-2 ">
             Yggdrasil
           </p>
@@ -229,7 +295,7 @@ export default function Home() {
           />
         </div>
         <div className="ml-0 z-0 flex flex-col my-auto">
-          <div className=" text-left ml-6 justify-end">
+          <div className=" text-left ml-6 justify-end pr-4">
             <p className="text-6xl font-thin mt-6 my-2 mb-4 decoration-th-accent-light underline">
               Anthropos
             </p>
@@ -302,7 +368,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="z-50 lg:w-7/12 text-right -mt-2">
+        <div className="z-50 lg:w-7/12 text-right -mt-2 pl-4">
           <p className="font-thin text-6xl text-right font-futurapt decoration-th-accent-light underline leading-tight   w-11/12  mt-0 ">
             Hymns
           </p>
@@ -317,7 +383,7 @@ export default function Home() {
           <p className="font-medium text-base text-right font-futurapt leading-none mb-12  w-11/12  mt-2 ">
             Offers a Free Class Card Specific to the Hymn Variant in
             Anthromancer's Upcoming On-Chain Card Game, as well as Future
-            In-Game Rewards
+            Rewards
           </p>
           <a href="/tokens/hymns">
             <div className="flex mx-auto w-full absolute bottom-0 right-0  justify-end ">
@@ -337,7 +403,7 @@ export default function Home() {
         <title>Source | Anthromancer</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className="">
+      <div className="z-50">
         <div className="flex mx-auto scale-30 bg-white opacity-90">
           <ScrollToTop smooth component={<BackToTop />} />
         </div>
@@ -345,43 +411,21 @@ export default function Home() {
       <div className="z-40">
         <Nav />
       </div>
-      <div className="h-24 w-full bg-lime-300 invisible">Spacer</div>
-      <main className="mt-8 flex flex-col mx-auto lg:w-2/3 w-11/12 bg-th-background font-futurapt mb-10 text-center justify-center">
+      <div className="h-8 lg:h-24 w-full bg-lime-300 invisible">Spacer</div>
+      <main className="lg:mt-8 flex flex-col mx-auto lg:w-2/3 w-11/12 bg-th-background font-futurapt mb-10 text-center justify-center">
         {/* Shop Title Section */}
         <div id="shop" className="py-8 text-left">
-          <p className="font-futurapt text-th-primary-dark mt-16 decoration-th-accent-light underline  font-thin text-7xl ">
+          <p className="font-futurapt text-th-primary-dark lg:mt-16 decoration-th-accent-light underline  font-thin text-7xl ">
             SHOP
           </p>
         </div>
 
         {/* Shop Section */}
-        <div className=" w-full bg-th-background shadow-xl shadow-slate-400/20 mt-2 font-futurapt text-center justify-center flex mx-auto">
-          <div className="overflow-hidden relative  h-136 w-full text-right  pb-4 flex  rounded-lg">
-            <img
-              src="/HeroShotDeux.jpg"
-              className="object-cover w-full h-136 object-center rounded-lg shadow-xl shadow-slate-400/20 "
-            />
-            <div className="font-thin text-white absolute bottom-20 left-12 text-left  justify-end">
-              <p className="drop-shadow-xl text-6xl   my-2 mb-4 decoration-th-accent-light underline">
-                Anthromancer
-              </p>
-              <p className=" text-2xl font-thin   my-2">First Edition</p>
-              <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug  mt-2 ">
-                The Ground-Breaking Original Board Game
-              </p>
-              <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug -mt-1  ">
-                From the mind of Daniel James Drake and
-              </p>
-              <p className="drop-shadow-xl font-thin leading-wide  text-xl leading-snug mb-2 -mt-1 ">
-                Expressed through the Visual Language of Sean Calen Blake
-              </p>
-            </div>
-            <div className="font-thin absolute bottom-6 text-center left-12  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light shadow-xl shadow-slate-400/20-2 bg-th-primary-medium shadow-xl shadow-slate-400/20-th-accent-light hover:bg-th-accent-light hover:shadow-xl shadow-slate-400/20-th-primary-medium cursor-pointer ">
-              <a href="https://anthromancy.backerkit.com/hosted_preorders">
-                ORDER NOW
-              </a>
-            </div>
-          </div>
+        <div className="hidden lg:flex w-full">
+          <ShopMain />
+        </div>
+        <div className="lg:hidden w-full">
+          <ShopMobile />
         </div>
         {/* Tokens Section */}
         <div

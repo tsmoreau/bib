@@ -231,7 +231,7 @@ function Flair() {
 function Slider1() {
   return (
     <div className="flex mx-auto px-4 py-2 w-full mt-6">
-      <div className="bg-th-background shadow-xl shadow-slate-400/20 h-144  w-11/12  lg:w-11/12 xl:w-10/12 text-right  mb-4 flex mx-auto rounded-lg">
+      <div className="bg-slate-00 shadow-xl shadow-slate-400/20 h-144  w-11/12  lg:w-11/12 xl:w-10/12 text-right  mb-4 flex mx-auto rounded-lg">
         <div className="w-full h-full bg-th-background items-center justify-between rounded-lg flex">
           <div className="pl-8 w-7/12 ">
             <div className=" flex w-auto">
@@ -275,7 +275,7 @@ function Slider1() {
             </a>
           </div>
 
-          <div className="w-5/12 h-auto  flex mx-auto  justify-center">
+          <div className="w-5/12 h-auto  flex mx-auto mr-8 justify-center">
             <img
               src="/FishHero.jpg"
               className="w-116 h-116 object-cover h-full rounded-full border border-2 border-th-accent-light"
@@ -618,11 +618,8 @@ function MobileSlider3() {
         </p>
         <div className="w-full justify-center flex mx-auto">
           <div className="font-thin  text-center  mt-8 mb-6 font-futurapt text-xl text-white w-72 py-1.5 pt-1 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-accent-light hover:border-th-primary-medium cursor-pointer ">
-            <a
-              target="_blank"
-              href="https://www.kickstarter.com/projects/danieljamesdrake/anthromancy"
-            >
-              LEARN MORE
+            <a target="_blank" href="/vibe">
+              CONTINUE READING...
             </a>
           </div>
         </div>
@@ -673,11 +670,11 @@ export default function Home() {
         duration={1.5}
         delay={0}
       >
-        <div className="relative z-0 mt-0  rounded-lg overflow-hidden items-center w-full  h-96 md:h-136  lg:h-156">
+        <div className="relative z-0 mt-0  rounded-lg overflow-hidden items-center w-full  h-116 md:h-136  lg:h-156">
           <div className="">
             <img
               src="/GetLowHero2.jpg"
-              className=" object-cover w-full h-96 md:h-136 mr-64 lg:h-156 object-center rounded-lg  "
+              className=" object-cover w-full h-116 md:h-136 mr-64 lg:h-156 object-center rounded-lg  "
             />
             <div className="absolute bottom-0 w-full h-6 bg-gradient-to-b from-transparent to-black"></div>
           </div>
@@ -710,7 +707,7 @@ export default function Home() {
         </div>
       </ScrollAnimation>
       <div className="flex mx-auto flex-col items-center">
-        <div className="lg:hidden max-w-7xl">
+        <div className="lg:hidden max-w-7xl py-4 mt-12\\8">
           <ScrollAnimation
             animateIn="fadeIn"
             animateOut="fadeOut"
@@ -730,7 +727,7 @@ export default function Home() {
             <Slider1 />
           </ScrollAnimation>
         </div>{" "}
-        <div className="lg:hidden max-w-7xl">
+        <div className="lg:hidden max-w-7xl py-4 mt-12\\8">
           <ScrollAnimation
             animateIn="fadeIn"
             animateOut="fadeOut"
@@ -760,7 +757,7 @@ export default function Home() {
             <Slider3b />
           </ScrollAnimation>
         </div>{" "}
-        <div className="lg:hidden max-w-7xl">
+        <div className="lg:hidden max-w-7xl py-4 mt-12\\8">
           <ScrollAnimation
             animateIn="fadeIn"
             animateOut="fadeOut"
@@ -770,11 +767,13 @@ export default function Home() {
             <MobileSlider3 />
           </ScrollAnimation>
         </div>
-        <ScrollAnimation animateIn="fadeIn" duration={1.5} delay={0}>
-          <Slider4 />
-        </ScrollAnimation>
+        <div className="hidden lg:flex mx-auto">
+          <ScrollAnimation animateIn="fadeIn" duration={1.5} delay={0}>
+            <Slider4 />
+          </ScrollAnimation>
+        </div>
       </div>
-      <div className="px-24 ">
+      <div className="px-24 hidden lg:flex flex-col mx-auto ">
         <Roadmap />
       </div>
       <div className="mt-12  px-10 pb-8 lg:px-64 lg:max-w-8xl h-56 w-full bg-th-background flex mx-auto justify-between">
