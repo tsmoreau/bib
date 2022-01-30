@@ -1,4 +1,4 @@
-export const emails = [
+export const backeremails = [
   { email: "j.arnold642@gmail.com" },
   { email: "mfink92@gmail.com" },
   { email: "alia.tenoch@gmail.com" },
