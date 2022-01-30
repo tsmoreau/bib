@@ -381,8 +381,8 @@ export default function Team() {
                   Experiements, and more. He received training as an Illustrator
                   at the Academy of Art San Francsico and does illustration and
                   comics work in the NFT space and beyond. His original training
-                  was in physical building and design, and now also builds and
-                  consults on off-grid tiny homes.
+                  was in physical building and design, and he now also builds
+                  and consults on off-grid tiny homes.
                 </p>
               </div>
             </div>
