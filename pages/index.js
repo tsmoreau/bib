@@ -355,11 +355,11 @@ function Slider3b() {
     <div className="flex mx-auto px-4 py-2 w-full mt-6">
       <div className="bg-th-background shadow-xl shadow-slate-400/20 h-144  w-11/12  lg:w-11/12 xl:w-10/12 text-right  mb-4 flex mx-auto rounded-lg">
         <div className="w-full h-full bg-th-background items-center justify-between rounded-lg flex">
-          <div className="pl-8 w-7/12 ">
+          <div className="relative pl-8 w-7/12 ">
             <div className="">
               <div className="flex mx-auto justify-start">
-                <p className="font-futurapt w-min lg:w-auto font-thin text-lv my-2 ">
-                  Blog Post | JANUARY 28th 2022 | Daniel James Drake
+                <p className="font-futurapt w-min lg:w-auto font-thin text-lg my-2 ">
+                  Blog Post | JANUARY 30th 2022 | Daniel James Drake
                 </p>
               </div>
 
@@ -380,12 +380,12 @@ function Slider3b() {
                   </svg>
                 </div>
                 <p className="font-futurapt font-thin md:text-4xl lg:text-5xl my-2 mb-4 decoration-th-accent-light ">
-                  Yggdrasil Token Drop!
+                  Yggdrasil Token Drop
                 </p>
               </div>
             </div>
 
-            <p className="font-thin text-xl text-left font-futurapt leading-tight drop-shadow-lg  w-11/12  mt-2 ">
+            <p className="invisible my-4 font-thin text-xl text-left font-futurapt leading-tight drop-shadow-lg  w-11/12  mt-2 ">
               Born from the mind of Daniel James Drake and expressed through the
               visual language of Sean Calen Blake, Anthromancer is a tabletop
               gaming experience unlike any other.
@@ -395,14 +395,41 @@ function Slider3b() {
               a guidebook) with an exotic, musical mythology, it beckons to the
               curious and invites you deeper.Combining beautiful, simple
               components (a deck of 71 patent-pending square cards, a 5x5 grid
-              board, 3 unique dice, and a guidebook) with an exotic, musical
-              mythology, it beckons to the curious and invites you deeper...
+              <br />
               <br />
               <br />
             </p>
-            <a target="_blank" href="/vibe">
+            <p className="absolute z-0 text-center items-center inset-x-0 inset-y-0 font-thin text-xl text-left font-futurapt leading-tight drop-shadow-lg  w-11/12  mt-2 ">
+              <p className="mt-28 pt-2">
+                “Animosity
+                <br />
+                is unbecoming,
+                <br />
+                overwhelmed as you may feel.
+                <br />
+                Color crossed with destiny,
+                <br />
+                you’ll be satisfied
+                <br />
+                with what the light reveals.”
+                <br />
+                <br />
+                <span className="italic">-Excerpt from hymn I. Fireyes</span>
+                <br />
+              </p>
+              <p className="w-full leading-snug mt-12 indent-8 text-left ">
+                We’ve been hard at work...
+              </p>
+              <a target="_blank" href="/vibe" className="">
+                <div className="font-thin w-1/2 text-center mt-6 ml-12 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-accent-light hover:border-th-primary-medium cursor-pointer ">
+                  CONTINUE READING
+                </div>
+              </a>
+            </p>
+
+            <a target="_blank" href="/vibe" className="z-50 invisible">
               <div className="font-thin w-1/2 text-center  mr-1 font-futurapt text-xl text-white px-8 py-1 pt-1 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-accent-light hover:border-th-primary-medium cursor-pointer ">
-                CONTINUE READING...
+                CONTINUE READING
               </div>
             </a>
           </div>
@@ -602,21 +629,33 @@ function MobileSlider3() {
         </video>
       </div>
       <div className=" flex flex-col items-center justify-center text-center">
-        <p className="pt-4 px-2 font-thin text-left text-lg  font-futurapt leading-tight   w-11/12  mt-2 ">
-          Born from the mind of Daniel James Drake and expressed through the
-          visual language of Sean Calen Blake, Anthromancer is a tabletop gaming
-          experience unlike any other.
+        <p className="text-center items-center inset-x-0 inset-y-0 font-thin text-xl text-left font-futurapt leading-tight drop-shadow-lg  w-11/12  mt-2 ">
+          <p className="mt-8">
+            “Animosity
+            <br />
+            is unbecoming,
+            <br />
+            overwhelmed as you may feel.
+            <br />
+            Color crossed with destiny,
+            <br />
+            you’ll be satisfied
+            <br />
+            with what the light reveals.”
+            <br />
+            <br />
+            <span className="italic">-Excerpt from hymn I. Fireyes</span>
+            <br />
+          </p>
+          <p className="w-full leading-snug mt-8 indent-8 text-left ">
+            We’ve been hard at work...
+          </p>
         </p>
-        <p className="pt-4 px-2 font-thin text-left text-lg font-futurapt leading-tight   w-11/12  mt-2 ">
-          Combining beautiful, simple components (a deck of 71 patent-pending
-          square cards, a 5x5 grid board, 3 unique dice, and a guidebook) with
-          an exotic, musical mythology, it beckons to the curious and invites
-          you deeper.
-        </p>
+
         <div className="w-full justify-center flex mx-auto">
-          <div className="font-thin  text-center  mt-8 mb-6 font-futurapt text-xl text-white w-72 py-1.5 pt-1 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-accent-light hover:border-th-primary-medium cursor-pointer ">
+          <div className="font-thin  text-center  mt-6 mb-6 font-futurapt text-xl text-white w-72 py-1.5 pt-1 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-accent-light hover:border-th-primary-medium cursor-pointer ">
             <a target="_blank" href="/vibe">
-              CONTINUE READING...
+              CONTINUE READING
             </a>
           </div>
         </div>
