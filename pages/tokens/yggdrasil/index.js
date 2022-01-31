@@ -538,15 +538,15 @@ export default function Home() {
                   As a token of our gratitude for their support, every verified
                   backer of the 2020 Anthromancer Kickstarter Campaign is
                   eligible to claim a single limited edition “Yggdrasil” NFT,
-                  secured on the Ethereum blockchain for all time. These ERC-721
-                  tokens will enable the holder to participate in secret
-                  experiences, grant special access to playtesting and live
-                  events, and unlock discounts on future NFT drops and gaming
-                  applications, for the life of the Anthromancer brand. Gas for
-                  claiming has been prepaid, and the claim codes distributed via
-                  email do not expire. We are moved by your support, and are
-                  grateful for the opportunity to repay you in some small way.
-                  Thank you.
+                  secured on the Ethereum blockchain for all time. These
+                  ERC-1155 tokens will enable the holder to participate in
+                  secret experiences, grant special access to playtesting and
+                  live events, and unlock discounts on future NFT drops and
+                  gaming applications, for the life of the Anthromancer brand.
+                  Gas for claiming has been prepaid, and the claim codes
+                  distributed via email do not expire. We are moved by your
+                  support, and are grateful for the opportunity to repay you in
+                  some small way. Thank you.
                 </p>
               </div>
               <div className="mt-4">
