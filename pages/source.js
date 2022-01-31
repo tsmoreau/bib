@@ -45,7 +45,7 @@ export default function Home() {
               Anthromancer
             </p>
             <p className="text-2xl font-thin   my-2">First Edition</p>
-            <p className="text-xl font-thin leading-none    text-xl  mt-2 pr-2">
+            <p className="text-xl font-thin leading-none text-xl  mt-2 pr-2">
               The Ground-Breaking Original Board Game From the mind of Daniel
               James Drake and Expressed through the Visual Language of Sean
               Calen Blake
