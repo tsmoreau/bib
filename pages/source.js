@@ -47,7 +47,7 @@ export default function Home() {
             <p className="text-2xl font-thin   my-2">First Edition</p>
             <p className="text-xl font-thin leading-none    text-xl  mt-2 pr-2">
               The Ground-Breaking Original Board Game From the mind of Daniel
-              James Drake and Eepressed through the Visual Language of Sean
+              James Drake and Expressed through the Visual Language of Sean
               Calen Blake
             </p>
           </div>
