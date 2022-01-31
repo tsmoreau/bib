@@ -660,49 +660,43 @@ export default function Home() {
         <Nav />
       </div>
       <div className="h-3 w-full bg-lime-300 invisible">Spacer</div>
-      <ScrollAnimation
-        animateIn="fadeInUp"
-        animateOut="none"
-        animateOnce
-        duration={1.5}
-        delay={0}
-      >
-        <div className="relative z-0 mt-0  rounded-lg overflow-hidden items-center w-full  h-116 md:h-136  lg:h-156">
-          <div className="">
-            <img
-              src="/GetLowHero2.jpg"
-              className=" object-cover w-full h-116 md:h-136 mr-64 lg:h-156 object-center rounded-lg  "
-            />
-            <div className="absolute bottom-0 w-full h-6 bg-gradient-to-b from-transparent to-black"></div>
-          </div>
 
-          <div className="opacity-50 text-white absolute top-0 text-left w-full h-48 justify-end">
-            <p className="invisible font-thin leading-wide drop-shadow-lg text-xl leading-snug mb-2 -mt-1 ">
-              Expressed through the Visual Language of Sean Calen Blake
-            </p>
-          </div>
-          <div className="absolute bottom-6 lg:bottom-20 inset-x-0 w-full flex flex-col items-center mx-auto justify-center animate-slideInDown animate-animated animate-repeat-1 animate-delay-[750ms] animate-duration-[2s]">
-            <a
-              target="_blank"
-              href="https://anthromancy.backerkit.com/hosted_preorders"
-            >
-              <div className=" animate-animated animate-repeat-[7]  text-center font-thin font-futurapt text-xl lg:text-3xl text-th-primary-dark px-8 py-1 pt-1 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-accent-light hover:border-th-primary-medium cursor-pointer ">
-                PREORDER NOW
-              </div>
-            </a>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              class="hidden flex mx-auto mt-3 stroke-4 fill-th-primary-medium stroke-th-accent-light animate-pulse animate-animated animate-infinite"
-              strokeWidth="3"
-            >
-              <path d="M12 21l-12-18h24z" />
-            </svg>
-          </div>
+      <div className="animate-slideInUp animate-animated animate-repeat-1  animate-duration-[1.5s] relative z-0 mt-0  rounded-lg overflow-hidden items-center w-full  h-116 md:h-136  lg:h-156">
+        <div className="">
+          <img
+            src="/GetLowHero2.jpg"
+            className=" object-cover w-full h-116 md:h-136 mr-64 lg:h-156 object-center rounded-lg  "
+          />
+          <div className="absolute bottom-0 w-full h-6 bg-gradient-to-b from-transparent to-black"></div>
         </div>
-      </ScrollAnimation>
+
+        <div className="opacity-50 text-white absolute top-0 text-left w-full h-48 justify-end">
+          <p className="invisible font-thin leading-wide drop-shadow-lg text-xl leading-snug mb-2 -mt-1 ">
+            Expressed through the Visual Language of Sean Calen Blake
+          </p>
+        </div>
+        <div className="absolute bottom-6 lg:bottom-20 inset-x-0 w-full flex flex-col items-center mx-auto justify-center animate-slideInDown animate-animated animate-repeat-1 animate-delay-[750ms] animate-duration-[2s]">
+          <a
+            target="_blank"
+            href="https://anthromancy.backerkit.com/hosted_preorders"
+          >
+            <div className=" animate-animated animate-repeat-[7]  text-center font-thin font-futurapt text-xl lg:text-3xl text-th-primary-dark px-8 py-1 pt-1 font-light border-2 bg-th-primary-medium border-th-accent-light hover:bg-th-accent-light hover:border-th-primary-medium cursor-pointer ">
+              PREORDER NOW
+            </div>
+          </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            class="hidden flex mx-auto mt-3 stroke-4 fill-th-primary-medium stroke-th-accent-light animate-pulse animate-animated animate-infinite"
+            strokeWidth="3"
+          >
+            <path d="M12 21l-12-18h24z" />
+          </svg>
+        </div>
+      </div>
+
       <div className="flex mx-auto flex-col items-center">
         <div className="lg:hidden max-w-7xl py-4 mt-12\\8">
           <ScrollAnimation
