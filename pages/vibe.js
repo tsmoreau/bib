@@ -19,7 +19,9 @@ export default function Home() {
         <title>Vibe | Anthromancer</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Nav />
+      <div className="z-50">
+        <Nav />
+      </div>
       <div className="h-20 w-full bg-lime-300 invisible">Spacer</div>
 
       <main className=" flex flex-col mx-auto lg:w-2/3 w-11/12 bg-th-background font-futurapt font-thin mb-10 text-center justify-center">
@@ -33,7 +35,7 @@ export default function Home() {
 
         {/* Main Post Area */}
         <div className="mt-16 w-full justify-start text-left">
-          <p className="text-5xl">Yggdrasil Reward Token Drop</p>
+          <p className="text-5xl">Yggdrasil Token Drop</p>
           <p className="text-base lg:text-lg py-2 mt-2">
             JANUARY 30th 2022 | By Daniel James Drake
           </p>
@@ -67,76 +69,182 @@ export default function Home() {
           <div className="bg-th-accent-light h-1 w-full my-2 mb-6"></div>
 
           {/* Main Post Contents*/}
-          <p className="w-full leading-snug mt-4 indent-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices
-            tincidunt arcu non sodales neque sodales. At augue eget arcu dictum
-            varius duis at consectetur lorem. Tincidunt lobortis feugiat vivamus
-            at. Vitae tortor condimentum lacinia quis vel eros. Accumsan in nisl
-            nisi scelerisque. Aenean pharetra magna ac placerat vestibulum
-            lectus mauris. Lacus vel facilisis volutpat est velit egestas dui.
-            Non sodales neque sodales ut etiam sit amet nisl purus. Iaculis eu
-            non diam phasellus vestibulum. Vulputate dignissim suspendisse in
-            est ante in. Sed faucibus turpis in eu mi bibendum. Maecenas
-            volutpat blandit aliquam etiam erat velit scelerisque. Turpis
-            egestas pretium aenean pharetra magna. Nulla malesuada pellentesque
-            elit eget. Lacinia at quis risus sed vulputate odio ut. Ac tortor
-            vitae purus faucibus. Morbi quis commodo odio aenean sed adipiscing
-            diam donec. Mattis ullamcorper velit sed ullamcorper. Leo duis ut
-            diam quam nulla porttitor.
+          <div className="w-full leading-snug mt-4">
+            <p className="text-center items-center font-thin text-xl text-left font-futurapt leading-tight    mt-2 ">
+              <p className="mt-8">
+                "Animosity
+                <br />
+                is unbecoming,
+                <br />
+                overwhelmed as you may feel.
+                <br />
+                Color crossed with destiny,
+                <br />
+                you’ll be satisfied
+                <br />
+                with what the light reveals.""
+                <br />
+                <br />
+                <span className="italic">-Excerpt from hymn I. Fireyes</span>
+                <br />
+              </p>
+            </p>
+          </div>
+
+          <p className="w-ful hidden text-left leading-snug mt-8 indent-8">
+            We’ve been hard at work for the last few weeks rebuilding the
+            Anthromancer website and getting everything ready for our product
+            launch on April 1st. Long time followers may have noticed that
+            anthromancer.com now redirects to a .io domain name – which seemed
+            only fitting with our full-bodied pivot into web3. Now, we are
+            pleased to announce the release of our very first brand-centric NFT,
+            Yggdrasil.
+          </p>
+          <p className="w-full text-left leading-snug mt-8 indent-8">
+            We’ve been hard at work for the last few weeks rebuilding the
+            Anthromancer website and getting everything ready for our product
+            launch on April 1st. Long time followers may have noticed that
+            anthromancer.com now redirects to a .io domain name – which seemed
+            only fitting with our full-bodied pivot into web3. Now, we are
+            pleased to announce the release of our very first brand-centric NFT,
+            Yggdrasil.
+          </p>
+          <p className="w-full leading-snug mt-3 indent-8">
+            The Yggdrasil token is a bit of an Anthromancer milestone (and a
+            personal one as well). It’s our first deployed smart contract, the
+            first digital token in our web3 ecosystem, and I also think it’s the
+            most important: It is a declaration of our intentions.
+          </p>
+          <p className="w-full leading-snug mt-4  indent-8">
+            The Yggdrasil token is a loss-leading investment on our part – a
+            place we are sinking our limited resources to send a message. A
+            literal ‘virtue signal’, if you’ll excuse the parlance of the time.
+            It is a gift of gratitude to those who helped us will our economic
+            engine into being through contributions to our crowdfund, and a
+            non-fungible olive branch to those whose experiences have led them
+            to believe we are up to no good. I do not believe we are up to no
+            good. I don’t know if I’d say we’re up to ‘good’, exactly (good/evil
+            dichotomies obfuscate understanding), but we are up to something
+            interesting, with depth, and with a meaningful ethos underpinning
+            our praxis.
+          </p>
+          <p className="w-full leading-snug mt-5 indent-8">
+            This is why it is so critically important for creators in this space
+            to set their intentions firmly, clearly, and back those intentions
+            up with meaningful action.
           </p>
           <p className="w-full leading-snug mt-4 indent-8">
-            Semper risus in hendrerit gravida rutrum. Mattis molestie a iaculis
-            at erat pellentesque adipiscing. Nascetur ridiculus mus mauris vitae
-            ultricies leo integer malesuada. Imperdiet proin fermentum leo vel
-            orci. Fringilla phasellus faucibus scelerisque eleifend donec. Nunc
-            sed velit dignissim sodales ut eu. Vitae congue eu consequat ac
-            felis donec et odio pellentesque. Est ultricies integer quis auctor.
-            Feugiat pretium nibh ipsum consequat. Facilisis mauris sit amet
-            massa. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper
-            dignissim.
+            If you contributed to our Kickstarter campaign in the summer of
+            2020, the email associated with your kickstarter account will
+            receive a secret code that can be used one time to claim a single
+            ERC-1155 token called Yggdrasil, which lives in the blockchain
+            ledger known as Ethereum mainnet. We have built the claims webpage
+            to walk you through the claims process if you’ve never done
+            something like this before. We have also prepaid the ‘gas fee’
+            necessary to transact on the Ethereum network (using a mechanism
+            called a relayer), so that our fans and friends who have never
+            participated in web3 and never held any kind of token can have their
+            first experience of digital ownership streamlined. No fees, no
+            exchanges, no hassle, no verification – simply install a web3 wallet
+            (like metamask), copy the code from your email, connect your wallet
+            to our website and claim the token. If you’re willing to take these
+            simple steps with us, you can be a part of what we’re building more
+            intimately.
           </p>
           <p className="w-full leading-snug mt-4 indent-8">
-            Egestas dui id ornare arcu odio ut sem nulla pharetra. Justo eget
-            magna fermentum iaculis. Morbi enim nunc faucibus a pellentesque sit
-            amet porttitor eget. Nibh nisl condimentum id venenatis a. In massa
-            tempor nec feugiat nisl pretium fusce. In hac habitasse platea
-            dictumst quisque sagittis purus sit. Arcu non odio euismod lacinia
-            at quis risus sed vulputate. Pretium viverra suspendisse potenti
-            nullam ac tortor vitae. Posuere lorem ipsum dolor sit amet
-            consectetur adipiscing elit. Faucibus a pellentesque sit amet. Vitae
-            sapien pellentesque habitant morbi tristique senectus. Amet massa
-            vitae tortor condimentum lacinia quis vel eros. Est ultricies
-            integer quis auctor elit sed vulputate mi. Nec ultrices dui sapien
-            eget mi proin. Laoreet sit amet cursus sit amet dictum. Odio euismod
-            lacinia at quis risus sed. Sed lectus vestibulum mattis ullamcorper.
+            It is worth pointing out to neophytes that each part of this process
+            – the deployment of the contract, the setting of parameters, the
+            minting of the tokens, and the transferring of tokens from our
+            wallet to yours – carries an economic cost (known as a ‘gas fee’)
+            which we are eating in service of our intention. I want you to
+            understand that this is not a throwaway decision like an email
+            marketing campaign is. There is something beautiful about building
+            systems with blockchains – the energy cost is presented to you at
+            the outset, in the form of the money you have to sacrifice to get
+            anything done here. There is necessarily a gravity to the decisions
+            you make with these systems, and a punishment if you use them
+            poorly. Having lived through some of the highest peaks of throwaway
+            consumerist culture...I like that. I like that a lot; systemic
+            equilibrium requires that we develop a sensitivity to real costs.
+          </p>
+          <p className="w-full leading-snug mt-4  indent-8">
+            That being said: we’re eating your first cost, so don’t get carried
+            away. If you lose access to your wallet, if you send your token to
+            an incorrect address, or if you’re not careful and fall victim to
+            simple theft (by, say, giving your seed phrase to a stranger), the
+            token you lose most likely cannot be retrieved.
           </p>
           <p className="w-full leading-snug mt-4 indent-8">
-            Consequat nisl vel pretium lectus quam id. Ipsum a arcu cursus vitae
-            congue mauris rhoncus. Quam vulputate dignissim suspendisse in est
-            ante in. Molestie a iaculis at erat pellentesque. Purus sit amet
-            luctus venenatis lectus magna fringilla urna porttitor. Vestibulum
-            rhoncus est pellentesque elit ullamcorper. Phasellus egestas tellus
-            rutrum tellus pellentesque eu. At urna condimentum mattis
-            pellentesque id nibh tortor id aliquet. Massa sed elementum tempus
-            egestas sed sed risus pretium quam. Placerat duis ultricies lacus
-            sed turpis tincidunt. Enim nulla aliquet porttitor lacus luctus
-            accumsan tortor posuere ac. Eleifend quam adipiscing vitae proin
-            sagittis nisl. Eu volutpat odio facilisis mauris sit amet massa
-            vitae. Egestas dui id ornare arcu odio ut sem. Nullam eget felis
-            eget nunc lobortis mattis aliquam faucibus.
+            And with THAT being said...we are minting more tokens than
+            necessary. There have only been around 400 kickstarter backers, but
+            we’ve minted 777 Yggdrasil tokens; this redundancy will allow us to
+            help insulate some of our backers from simple, human mistakes. If
+            you stumble as you wade into this new frontier, we have at least a
+            little leeway established to help make you whole again. Mistakes are
+            valuable, but it is just as valuable to know that someone cares
+            enough to help you get up when you fall. We do.
+          </p>
+          <p className="w-full leading-snug mt-4  indent-8">
+            We will also use some of the tokens from this surplus as gifts to
+            strangers; reviewers, publishers, friends and people who beat me in
+            a spirited game of Mercenarium at some point down the road. Their
+            existence gives us the power to ‘cut people in’ and do human magic
+            in a way we’ve not really seen before. I like that.
+          </p>
+          <p className="w-full leading-snug mt-4  indent-8">
+            If you claim this token and hold it for a while, you’re effectively
+            giving us the power to give you power. We’re building some exciting
+            things in web3 – on-chain strategy games and generative card
+            archetypes, immersive experiences, and a community of seekers who we
+            will guide towards an attitude of compassion, curiosity, and mutual
+            respect. The tokens we deploy become specialized ‘keys’ to unlocking
+            parts of these experiences, while also carrying the potential of
+            becoming batteries of economic energy. They are versatile and
+            dynamic, fascinating and unpredictable, and they truly belong to
+            you.
           </p>
           <p className="w-full leading-snug mt-4 indent-8">
-            Ac ut consequat semper viverra nam. Malesuada proin libero nunc
-            consequat interdum varius. Turpis nunc eget lorem dolor sed viverra
-            ipsum nunc aliquet. Eget nunc lobortis mattis aliquam faucibus.
-            Velit euismod in pellentesque massa placerat duis. Tortor pretium
-            viverra suspendisse potenti nullam ac tortor vitae. Tincidunt arcu
-            non sodales neque sodales ut etiam sit amet. Ut aliquam purus sit
-            amet luctus venenatis lectus. Purus non enim praesent elementum
-            facilisis. Orci sagittis eu volutpat odio facilisis. In arcu cursus
-            euismod quis viverra nibh. Eget egestas purus viverra accumsan in
-            nisl nisi. Ullamcorper malesuada proin libero nunc consequat.
+            Anthromancer is on its way to an ostentatious release, and after the
+            Yggdrasil token is live and claimable we will be following it up
+            with two additional token drops. The first, named Anthropos, will
+            launch on Valentine’s Day (an Aquarian romantic’s favorite holiday),
+            and will be free-to-mint as a way to extend a similar olive branch
+            to the wider cryptonative community. The next, called the Hymnal
+            Collection, will launch on the Ides of March (we do love our weird
+            little holidays here), and will give this new community of backers
+            and cryptonatives the chance to competitively collect pieces of our
+            game’s lore as a method for unlocking secret classes and aesthetic
+            powers in our future gaming ecosystem. Once these drops are
+            completed, we’ll finish this little stunt off by auctioning 0. The
+            Fool as a single token ownable by the highest bidder, on April
+            Fool’s Day, after which point our board game will be formally
+            released.
+          </p>
+          <p className="w-full leading-snug mt-4  indent-8">
+            If you’d like to participate in any of these, we invite you to
+            connect with us via our community Discord.
+          </p>
+          <p className="w-full leading-snug mt-4 indent-8">
+            It’s a very exciting time to be at the forefront of something like
+            this. I’ve been working on this dream in relative obscurity for the
+            better part of a decade. With the Yggdrasil deployment behind us,
+            we’ve begun to build momentum towards realizing the enormous
+            potential we’ve built up over the years. For so long it has seemed
+            that I’m the madman trying to figure out my elevator pitch – “It’s a
+            game, but also, you can do tarot readings, and there’s a story about
+            the collapse but it’s so hopeful and also, shapes, and a concept
+            album too!” – but soon I won’t have to. The product will exist, it
+            will be in your hands, and you can figure out what it means on your
+            own time. The duty that lies before me is to keep pushing, keep
+            building, and maximize the value that my team and I can bring out of
+            these ideas. We have very little reason to stop, and I’m hopeful
+            that you’ll come along for the ride.
+          </p>
+          <p className="w-full leading-snug mt-4  indent-8">
+            Thanks for reading...and happy claiming!
+          </p>
+          <p className="w-full leading-snug mt-4 text-xl italic text-center font-bold">
+            -Dan
           </p>
           <div className="bg-th-accent-light h-1 w-full my-4 mb-0"></div>
         </div>
