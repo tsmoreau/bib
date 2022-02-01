@@ -454,7 +454,7 @@ export default function Home() {
                   className="rounded-lg flex mx-auto"
                 >
                   <source
-                    src="https://gateway.ipfs.io/ipfs/QmVwJGSZmsBzsseFEx3RtCnGL8q5d1DXZQxUkDt7aCjEpd"
+                    src="https://ipfs.infura.io/ipfs/QmVwJGSZmsBzsseFEx3RtCnGL8q5d1DXZQxUkDt7aCjEpd"
                     type="video/mp4"
                   />
                 </video>
@@ -751,7 +751,7 @@ export default function Home() {
             <div className="w-full h-auto flex  mx-auto justify-center rounded-lg mt-12">
               <video autoPlay muted loop className="w-9/12 rounded-lg">
                 <source
-                  src="https://gateway.ipfs.io/ipfs/QmVwJGSZmsBzsseFEx3RtCnGL8q5d1DXZQxUkDt7aCjEpd"
+                  src="https://ipfs.infura.io/ipfs/QmVwJGSZmsBzsseFEx3RtCnGL8q5d1DXZQxUkDt7aCjEpd"
                   type="video/mp4"
                 />
               </video>
