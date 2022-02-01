@@ -247,7 +247,7 @@ function YggClaim() {
                             </div>
                             <div className="flex flex-col items-center mx-auto">
                               <a
-                                href="https://testnets.opensea.io/assets/0x992ACb693E448a3C82DBBf1b3828920737a76D03/1"
+                                href="https://opensea.io/assets/0x976f0E0168Bc82ACd59C64AD8c08Aa1E2937Ef57/1"
                                 className="mx-4 mt-2 justify-center border rounded-lg cursor-pointer text-center w-11/12 flex mx-auto font-futurapt font-thin text-xl text-white px-5 py-0.5 pt-0.5 font-light  "
                               >
                                 <svg
