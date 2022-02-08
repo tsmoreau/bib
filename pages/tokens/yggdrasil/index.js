@@ -113,7 +113,7 @@ function YggClaim() {
     console.log(data);
 
     if (data.success) {
-      // reset the fields and log the data
+      // reset the fields and once 
       getOnePost2();
     } else {
       // set the error
